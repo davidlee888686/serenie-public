@@ -1,0 +1,1 @@
+Implement the frozen architecture through milestone-based delivery.

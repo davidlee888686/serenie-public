@@ -1,0 +1,5 @@
+# Requirements file to help manage and audit dependencies
+# Upgraded to fix vulnerabilities reported by pip-audit
+aiohttp==3.14.3
+cryptography==50.0.0
+PyYAML==6.0.4

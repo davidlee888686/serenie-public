@@ -1,0 +1,34 @@
+{
+  "ceap_operating_level": "D_4",
+  "layers": {
+    "federation": {
+      "engine": "serenie_v2_5.federation.engine.MultiEcosystemFederationEngine",
+      "invariants": [
+        "INV_FED_002",
+        "INV_FED_003"
+      ],
+      "protocol": "multi_ecosystem_federation_protocol.json",
+      "vectors": "multi_ecosystem_federation_vectors.json"
+    },
+    "governance": {
+      "engine": "serenie_v2_5.governance.engine.EcosystemGovernanceEngine",
+      "invariants": [
+        "INV_GOV_001",
+        "INV_GOV_002"
+      ],
+      "protocol": "ecosystem_governance_protocol.json",
+      "vectors": "ecosystem_governance_vectors.json"
+    },
+    "personality": {
+      "constraints": [
+        "STRICT_CEAP_D4_BOUNDARY_LOCK"
+      ],
+      "engine": "serenie_v2_5.personality.engine.AutonomousPersonalityEngine",
+      "schema": "autonomous_personality_schema.json",
+      "vectors": "autonomous_personality_vectors.json"
+    }
+  },
+  "timestamp": "2026-08-03T04:05:51-05:00",
+  "title": "Serenie v2.5 Substrate Integration Map",
+  "version": "2.5.0"
+}

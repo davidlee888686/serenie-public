@@ -1,0 +1,56 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "contract_enforcement": "CEAP_D4_PLUS_STRICT",
+  "contracts_cid": "d0ec6165465db88af9bbff0a90aed175e5dd19c67fa86c8ca541de4270794c4c",
+  "onboarding_contracts": [
+    {
+      "contract_id": "CTR_ONBOARD_IDENTITY_001",
+      "name": "Post-Quantum External Identity Verification Contract",
+      "postconditions": [
+        "Registers entity identity triple under target domain tenant.",
+        "Emits PQ identity verification certificate."
+      ],
+      "preconditions": [
+        "External agent must provide valid PQ public key coordinates.",
+        "Signature handle must match source domain registration."
+      ],
+      "target_schemes": [
+        "DILITHIUM5",
+        "FALCON1024"
+      ]
+    },
+    {
+      "contract_id": "CTR_ONBOARD_ZKP_001",
+      "name": "ZKP Envelope Validation Contract",
+      "postconditions": [
+        "Emits ZKP envelope validation certificate.",
+        "Grants external agent routing access under policy table."
+      ],
+      "preconditions": [
+        "Submitted proof envelope must be verified under CEAP-D4+.",
+        "Zero raw state payload bytes must be leaked during validation."
+      ],
+      "target_envelopes": [
+        "PLONK_PROOF_ENVELOPE",
+        "STARK_PROOF_ENVELOPE",
+        "PLONK_STARK_HYBRID_ENVELOPE"
+      ]
+    },
+    {
+      "contract_id": "CTR_ONBOARD_ROUTING_ELIGIBILITY_001",
+      "name": "CEAP-D4+ Routing Access Grant Contract",
+      "postconditions": [
+        "Adds agent to target domain active routing table.",
+        "Appends onboarding event block to cross-ecosystem journal."
+      ],
+      "preconditions": [
+        "Both PQ identity and ZKP envelope verification certificates must be active.",
+        "Agent scope must match assigned tenant isolation boundary."
+      ]
+    }
+  ],
+  "phase": "V2-1.05",
+  "title": "v2.1 External Agent Onboarding Contracts Specification",
+  "total_onboarding_contracts": 3,
+  "version": "v2.1"
+}

@@ -1,0 +1,26 @@
+{
+  "artifact_hashes": {
+    "v2.2_cognitive_mesh_spec": "8287f8b6f93e17c32138990ab0ad9c1d06e490c4572d0234515c906b5cb9f96b",
+    "v2.2_deterministic_inference_rules": "0dc03f274073a8bb7167185ffcb72e1c290a9f2f7c9573e54dae63e754ddb594",
+    "v2.2_federated_reasoning_engine_spec": "58fb4c4604cd0c2e89b2f02fc5d2b4117dcd646c53ed6cc1402ebb4c8406ff46",
+    "v2.2_insight_consensus_rules": "bed8b71b52a83b593d1eeebb82bd41bbce4c660c96edb48211af2b7185f6c614",
+    "v2.2_insight_synthesis_spec": "6eca0418e328ed4ba670b9f7a92f51e03293d2c7c9281cb20bd5ec1a50866f9f",
+    "v2.2_intelligence_conformance_spec": "2bc8eadef389786420a7426e5e80d61590a00866c70c07f50dfe61e9ecdbd3ea",
+    "v2.2_intelligence_conformance_suite": "977b23f42eb4aa991af6532ad14972408a76bbcc40ca2470a2dba650fe61df6e",
+    "v2.2_intelligence_evidence_bundle": "bc14f31bfee11d3a8e0a94bd92150add3ae2e0534ebfd986bea5481909b1f207",
+    "v2.2_intelligence_init_spec": "b311009618bcb8abb16306cced79d3daa54c1f246f7dc7aaf49054d371407b43",
+    "v2.2_intelligence_orchestration_rules": "ebb6cf67a1f4d8b32eee5acdd7eccd60d83a623865788b5adc712dcb10dc4635",
+    "v2.2_intelligence_orchestration_spec": "b68bcffdc38cffb409e4bbba3d98edf42598e0586b9c43dfa874d43a4bad2a2d",
+    "v2.2_intelligence_service_contracts": "b417fc9be449b70eb2285b1dda8eddf424a5bcb697ad3c847b8e9510424e9af6",
+    "v2.2_intelligence_service_spec": "a33ab6c7370d245017197164546867aefe46961c8bbed2cf6ba0c2f946e6d78e",
+    "v2.2_reasoning_cycle_rules": "d19ed038cfe2a19dbcaec094a304ce623253f416c0087a34442245cfc51e687c",
+    "v2.2_reasoning_propagation_rules": "38f5feefea8e8cf9dcd68aa06beae32477bec3a0988a3bb8f14eee6307208ad9"
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "manifest_cid": "f2ea291154f8667e9901da21772378f60823e50de7185b79221772516904fe70",
+  "phase": "V2-2.08",
+  "release_state": "COMPLETE_AND_FROZEN_V2_2",
+  "title": "Serenie v2.2 Deterministic Intelligence Release Manifest",
+  "total_artifacts_managed": 15,
+  "version": "v2.2"
+}

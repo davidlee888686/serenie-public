@@ -1,0 +1,116 @@
+{
+  "bound_release_components": {
+    "checksum_registry": {
+      "content_cid": "0809aa21365c01b2e1fa0801a7c58f350dfb26c1efd355cbe30fb7256603bd1c",
+      "file_size_bytes": 9885,
+      "filename": "serenie_v3_0_checksum_registry.json",
+      "path": "/working_dir/serenie_v3_0_checksum_registry.json",
+      "sha256_digest": "44d5c155ea5337621f782fcd31ad2a65152f8b46029c92831c4a69efc2c5310a"
+    },
+    "distribution_manifest": {
+      "content_cid": "2a65d82f93d5f9443c4fd3d60649357e32f1f9a4c707c99c184724bc706adf4e",
+      "file_size_bytes": 1607,
+      "filename": "serenie_v3_0_distribution_manifest.json",
+      "path": "/working_dir/serenie_v3_0_distribution_manifest.json",
+      "sha256_digest": "39927b565d4f4f6be092d13adb1b5ce39c9674ff50bfd5874cc84607c1461328"
+    },
+    "documentation_set": {
+      "directory": "/working_dir/serenie_v3_0_major_release_docs/",
+      "doc_manifest": {
+        "content_cid": "90c19cbcb29791b50ce04c5557d462a8a3af26a66393db724b720833d08fc418",
+        "file_size_bytes": 2160,
+        "filename": "doc_manifest.json",
+        "path": "/working_dir/serenie_v3_0_major_release_docs/doc_manifest.json",
+        "sha256_digest": "c24c7170280da0acdb4bb100d7120184a251f802bb275f0cef90c3203ca7a555"
+      },
+      "total_documents": 7
+    },
+    "freeze_record": {
+      "content_cid": "1ec8894cfaee5e3680d509ec62fc6b7be021d501c4b29ccbb719a4e2f49740f3",
+      "file_size_bytes": 142521,
+      "filename": "serenie_v3_0_final_freeze_record.json",
+      "path": "/working_dir/serenie_v3_0_final_freeze_record.json",
+      "sha256_digest": "4899afb68f9e9240aaea70d363d72813298c2ff9f85191edd6eea9404e179b4c"
+    },
+    "frozen_substrate_manifest": {
+      "content_cid": "fa4e4deab01b0c4fc85aea19a8b206d2f68a81e72725aca66562bbdfe7ffccf5",
+      "file_size_bytes": 652,
+      "filename": "serenie_v3_0_frozen_substrate_manifest.json",
+      "path": "/working_dir/serenie_v3_0_frozen_substrate_manifest.json",
+      "sha256_digest": "e3a4fccf051af27a30c20792c3dc0d2ff42c64e88ab21e9ff8e431861f5be82b"
+    },
+    "major_release_package": {
+      "package_metadata": {
+        "content_cid": "850710bf33829ffbd6015755fd4316e1aefa753df79f8c2a0de7813317fc6000",
+        "file_size_bytes": 5320,
+        "filename": "serenie_v3_0_major_release_metadata.json",
+        "path": "/working_dir/serenie_v3_0_major_release_metadata.json",
+        "sha256_digest": "1a5ea53fda4d760d6225bd20ea035ca0aa812871ae5618503f8ab9af537e1169"
+      },
+      "package_zip": {
+        "file_size_bytes": 167055,
+        "filename": "serenie_v3_0_major_release_package.zip",
+        "path": "/working_dir/serenie_v3_0_major_release_package.zip",
+        "sha256_digest": "53e276a9e32e77d1e311815d0683717f1bfc1726afa33c49f8594837108076ae"
+      }
+    },
+    "release_notes": {
+      "json_manifest": {
+        "content_cid": "1a8662df439581997970950c73d06f92ee6f5fe528aa0efe5a798d921d29b609",
+        "file_size_bytes": 1198,
+        "filename": "serenie_v3_0_release_notes.json",
+        "path": "/working_dir/serenie_v3_0_release_notes.json",
+        "sha256_digest": "1a93b1b867edca7e423d73a9e9c8c146aece8f54b677b020947880640e78fef4"
+      },
+      "markdown_doc": {
+        "file_size_bytes": 2520,
+        "filename": "serenie_v3_0_release_notes.md",
+        "path": "/working_dir/serenie_v3_0_release_notes.md",
+        "sha256_digest": "54375c26b1fcbdbc5ebd4e86b3646edbfe7912b15c7e1729e96b4c72ac87cf10"
+      }
+    },
+    "seal_certificate": {
+      "content_cid": "faabda48dc11cca51013ddd66e695f01339630f23fbc19d8ebc6f6885ba11d24",
+      "file_size_bytes": 912,
+      "filename": "serenie_v3_0_final_seal_certificate.json",
+      "path": "/working_dir/serenie_v3_0_final_seal_certificate.json",
+      "sha256_digest": "c2fda7afbd1089d5daecff77bc2ff57948719ab91aff2601db86922ce415c2f1"
+    },
+    "signature_registry": {
+      "content_cid": "0d41156868f6c945e1bbbb246995e1d252157ab86b4b5bca666b49f9bc3ec63a",
+      "file_size_bytes": 14942,
+      "filename": "serenie_v3_0_signature_registry.json",
+      "path": "/working_dir/serenie_v3_0_signature_registry.json",
+      "sha256_digest": "be035980de22813e4761ce537a2e0f8e7b8ff38f1f86557b18ade06fa51824d2"
+    },
+    "verification_suite_results": {
+      "content_cid": "e6d66f743c088510a2e1408bdd5997b42963e6ad849a5a4d4fc170ebf28c810a",
+      "file_size_bytes": 8643,
+      "filename": "serenie_v3_0_major_release_verification.json",
+      "path": "/working_dir/serenie_v3_0_major_release_verification.json",
+      "sha256_digest": "8e824ffb04b10210e9be849069514db48a4e01ea0202234dacf0537b71617fae"
+    },
+    "versioning_metadata": {
+      "content_cid": "9cc9a30cb948a6afb830911845343ece06055abe08bba126da4d6412c18d62d9",
+      "file_size_bytes": 1072,
+      "filename": "serenie_v3_0_versioning_metadata.json",
+      "path": "/working_dir/serenie_v3_0_versioning_metadata.json",
+      "sha256_digest": "a67d9c00c5ab7aa90ef6c6ab73767b91a1c0135369e577cc161aca526774c602"
+    }
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "final_release_cid": "4dcb8c952c2bde47f253be6a87242cf8a84c236c53428ef84a5cf33947d35346",
+  "finalization_timestamp": "2026-08-03T12:49:24-05:00",
+  "release_verdict": "SERENIE_V3_0_MAJOR_RELEASE_PERMANENTLY_SEALED_AND_FINALIZED",
+  "security_and_verifiability_guarantees": {
+    "determinism_guarantee": "100_PERCENT_BYTE_EXACT_REPRODUCIBILITY",
+    "drift_boundary": "ZERO_DRIFT_EVOLUTION_BOUNDARY_ENFORCED",
+    "post_quantum_signatures": "DILITHIUM5_FALCON1024_SEALED",
+    "release_lifecycle_state": "CLOSED_AND_IMMUTABLE_CIVILIZATION_SUBSTRATE_V3_0",
+    "zero_knowledge_envelopes": "PLONK_STARK_HYBRID_VERIFIED"
+  },
+  "semver": "3.0.0",
+  "status": "SERENIE_V3_0_MAJOR_RELEASE_READY",
+  "substrate_version": "v3.0",
+  "title": "Serenie Substrate v3.0 Major Release Finalization Record"
+}

@@ -1,0 +1,63 @@
+{
+  "bundle_id": "57bbc6e3ac50a182feceaeb7d3e9c05bf4ae207e7b797d3b873c51ea9832709b",
+  "ceap_max_level": "D_4",
+  "manifest_summary": {
+    "bundle_name": "serenie_autonomous_release",
+    "metadata": {},
+    "spec": {
+      "ceap_max_level": "D_4",
+      "invariants": [
+        {
+          "id": "INV_CAN_001",
+          "name": "Canonical Idempotence",
+          "statement": "Canon(Canon(x)) == Canon(x)"
+        },
+        {
+          "id": "INV_ID_001",
+          "name": "Identity Stability",
+          "statement": "Logical ID is stable across non-semantic state transitions."
+        },
+        {
+          "id": "INV_DET_001",
+          "name": "Deterministic Step Execution",
+          "statement": "Identical inputs and step indices yield byte-exact identical states."
+        },
+        {
+          "id": "INV_JOURNAL_001",
+          "name": "Append-Only Hash Chain",
+          "statement": "Execution journal blocks form unbroken parent-hash cryptographic sequence."
+        }
+      ],
+      "standard_name": "Serenie Deterministic Substrate",
+      "version": "1.0-RC1",
+      "volumes": {
+        "Volume_0": "Meta Specification",
+        "Volume_I": "Core Invariants",
+        "Volume_II": "Ontology",
+        "Volume_III": "Formal Model",
+        "Volume_IV": "Protocols",
+        "Volume_IX": "Proof Obligations",
+        "Volume_V": "Execution Model",
+        "Volume_VI": "Conformance",
+        "Volume_VII": "Reference Patterns",
+        "Volume_VIII": "Reference Corpus"
+      }
+    },
+    "state_count": 1,
+    "states": [
+      {
+        "ceap_level": "D_3",
+        "content_id": "b6ef3a31158976a30bd9a6a1e09f9c5776baf916d0a0aca3fe25a1787a496663",
+        "is_repaired": false,
+        "payload": {
+          "pipeline": "auto_test_pipeline",
+          "stage": "INIT"
+        },
+        "step_index": 0
+      }
+    ]
+  },
+  "pipeline": "auto_test_pipeline",
+  "standard": "Serenie Deterministic Substrate",
+  "version": "1.0-RC1"
+}

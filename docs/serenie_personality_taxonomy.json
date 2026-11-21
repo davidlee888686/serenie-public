@@ -1,0 +1,65 @@
+{
+  "adaptation_rules": [
+    {
+      "action": "CANONICALIZE_STATE_DELTA_UNDER_CEAP_D4_PLUS",
+      "condition": "FLOATING_DRIFT_DETECTED",
+      "rule_id": "ADAPT_PERS_001"
+    }
+  ],
+  "ceap_operating_level": "D_4_PLUS",
+  "compatibility_and_conflict_resolution": {
+    "compatibility_matrix": {
+      "TYPE_ORCHESTRATOR_D4+TYPE_SYNTHESIZER_COLLECTIVE": "HIGHLY_COMPATIBLE",
+      "TYPE_ORCHESTRATOR_D4+TYPE_VALIDATOR_SOVEREIGN": "HIGHLY_COMPATIBLE"
+    },
+    "conflict_resolution_procedure": "DETERMINISTIC_JOURNAL_REPLAY_VALIDATION"
+  },
+  "cross_ecosystem_mapping_rules": [
+    {
+      "mapped_role": "PRIMARY_DEDUCTIVE_COORDINATOR",
+      "rule_id": "MAP_PERS_001",
+      "source_type": "TYPE_ORCHESTRATOR_D4",
+      "target_clusters": [
+        "cluster_alpha.serenie.org",
+        "cluster_beta.serenie.org",
+        "ecosystem_gamma.serenie.net"
+      ]
+    }
+  ],
+  "hierarchical_classification": {
+    "tier_1_kernel_orchestrators": [
+      {
+        "domain_scope": "GLOBAL_ECOSYSTEM",
+        "traits": [
+          "DEDUCTIVE_RIGOR",
+          "EVIDENCE_AUDITABILITY"
+        ],
+        "type_id": "TYPE_ORCHESTRATOR_D4"
+      }
+    ],
+    "tier_2_domain_validators": [
+      {
+        "domain_scope": "CLUSTER_BETA",
+        "traits": [
+          "SOVEREIGN_AUTONOMY",
+          "REFERENTIAL_TRANSPARENCY"
+        ],
+        "type_id": "TYPE_VALIDATOR_SOVEREIGN"
+      }
+    ],
+    "tier_3_collective_mesh_synthesizers": [
+      {
+        "domain_scope": "ECOSYSTEM_GAMMA",
+        "traits": [
+          "COLLABORATIVE_CONSENSUS",
+          "REFERENTIAL_TRANSPARENCY"
+        ],
+        "type_id": "TYPE_SYNTHESIZER_COLLECTIVE"
+      }
+    ]
+  },
+  "phase": "PHASE_5_TAXONOMY",
+  "taxonomy_cid": "58b6acc7008f3981709dbd3ab58d500b278001d48e0a2d52979424ac4301cc34",
+  "title": "Multi-Ecosystem Personality Taxonomy Specification",
+  "version": "v2.5_omega"
+}

@@ -1,0 +1,21 @@
+{
+  "algorithms": {
+    "hash_function": "SHA3-512",
+    "key_exchange": "FALCON-1024",
+    "signature_scheme": "DILITHIUM5"
+  },
+  "ceap_operating_level": "D_4",
+  "document_hash": "1b197c614a42aea80740352754ab440c4b9eb27c068d02fe3a775c7a6b5fb931",
+  "phase": "V2-02",
+  "post_quantum_compliance": "NIST_PQC_LEVEL_5",
+  "sample_coordinates": {
+    "hash_algorithm": "SHA3-512",
+    "pq_coordinate_id": "pq_coord_f1005704106ed181fb49192e52514394",
+    "public_key_algorithm": "DILITHIUM5",
+    "scheme": "DILITHIUM_5_SHA3_512",
+    "sha3_512_digest": "f1005704106ed181fb49192e525143948c3cea728d53af0feb82858e5273ca0e8ff7c5a1821997ee4e3f43bc3ccfc1d69b772a320470b87d4f183a25b8ac7dda",
+    "status": "POST_QUANTUM_COORDINATES_GENERATED"
+  },
+  "title": "Post-Quantum Identity Coordinates & Signature Schemes",
+  "version": "v2.0"
+}

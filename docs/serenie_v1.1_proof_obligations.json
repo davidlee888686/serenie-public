@@ -1,0 +1,25 @@
+{
+  "proof_obligations": [
+    {
+      "obligation_id": "PO_CAN_IDEMPOTENT",
+      "statement": "forall s: CanonicalState, Canon(Canon(s)) == Canon(s)",
+      "status": "PROVED"
+    },
+    {
+      "obligation_id": "PO_ID_DETERMINISTIC",
+      "statement": "forall x: JSONPayload, SHA256(Canon(x)) is unique and deterministic",
+      "status": "PROVED"
+    },
+    {
+      "obligation_id": "PO_JOURNAL_HASH_CHAIN",
+      "statement": "forall i in Journal, Hash(Block_i) == SHA256(Block_i.content || Hash(Block_{i-1}))",
+      "status": "PROVED"
+    },
+    {
+      "obligation_id": "PO_PROJECTION_RECOMPUTABLE",
+      "statement": "forall p in Projection, Build(Journal, State) == p",
+      "status": "PROVED"
+    }
+  ],
+  "version": "v1.1"
+}

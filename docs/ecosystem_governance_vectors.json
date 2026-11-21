@@ -1,0 +1,36 @@
+{
+  "arbitration_vectors": [
+    {
+      "arbitration_id": "ARB_GOV_001",
+      "route_id": "gov_route_1df519c34fca36cd54cf7cdac8494fc8",
+      "rule": "DETERMINISTIC_CHECKPOINT_ROLLBACK"
+    }
+  ],
+  "ceap_operating_level": "D_4_PLUS",
+  "ecosystem_continuity_vectors": [
+    {
+      "index": 0,
+      "journal_block_hash": "32d6ae6b81b9907375d208d3c5292372f260d9353838d5f449b9a0ff98548313",
+      "prev_hash": "GENESIS_GOV_BLOCK_000"
+    }
+  ],
+  "enforcement_vectors": [
+    {
+      "enforcement_id": "ENF_GOV_001",
+      "mechanism": "ZKP_QUORUM_VERIFIER",
+      "status": "ACTIVE"
+    }
+  ],
+  "phase": "PHASE_1_GOVERNANCE",
+  "policy_vectors": [
+    {
+      "decision": "APPROVED",
+      "eval_cid": "gov_eval_e41f4623ea0980c5f543be749299a60b",
+      "name": "Strict Invariant Lock",
+      "policy_id": "POL_GOV_001"
+    }
+  ],
+  "title": "Serenie Ecosystem Governance Vectors",
+  "vectors_cid": "82954d40e4a13f7c94f73ec42e634357f28b9b64fc9af0d8f917dd9d76d85234",
+  "version": "v2.5_omega"
+}

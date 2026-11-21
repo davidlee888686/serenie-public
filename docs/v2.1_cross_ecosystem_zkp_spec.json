@@ -1,0 +1,63 @@
+{
+  "bound_foundations": {
+    "agent_registry_cid": "a605587a6e1de6c514892097abd1b5609d1fed28cc5b0833e173341da94eaadf",
+    "id_map_cid": "81e1868f7bf5be4a7ee94a482e8de9b45ba4d0d080ac0f8142b88dac62c600ff"
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "phase": "V2-1.03",
+  "privacy_guarantee": "STRICT_ZERO_KNOWLEDGE_PAYLOAD_ISOLATION",
+  "spec_cid": "58a30d9016f9c048d9b5f8b5a9213443c8ba52b74e8a746295616a19098fc7f7",
+  "title": "v2.1 Cross-Ecosystem ZKP Verification Specification",
+  "total_verification_flows": 3,
+  "verification_flows": [
+    {
+      "flow_id": "FLOW_ZKP_ALPHA_PLONK",
+      "pq_binding": {
+        "coordinate": "pq_coord_dilithium5_alpha",
+        "scheme": "DILITHIUM5"
+      },
+      "proof_envelope_type": "PLONK_PROOF_ENVELOPE",
+      "source_domain": "cluster_alpha.serenie.org",
+      "target_domain": "cluster_beta.serenie.org",
+      "verification_steps": [
+        "1. Verify Dilithium5 signature anchor against domain public key.",
+        "2. Extract PLONK proof commitment and public inputs CID.",
+        "3. Perform deterministic SNARK polynomial evaluation under CEAP-D4+.",
+        "4. Confirm zero payload leakage and emit cross-domain claim assertion."
+      ]
+    },
+    {
+      "flow_id": "FLOW_ZKP_BETA_STARK",
+      "pq_binding": {
+        "coordinate": "pq_coord_falcon1024_beta",
+        "scheme": "FALCON1024"
+      },
+      "proof_envelope_type": "STARK_PROOF_ENVELOPE",
+      "source_domain": "cluster_beta.serenie.org",
+      "target_domain": "ecosystem_gamma.serenie.net",
+      "verification_steps": [
+        "1. Verify Falcon-1024 signature anchor against domain public key.",
+        "2. Extract STARK FRI-commitment and public inputs CID.",
+        "3. Perform deterministic FRI-low-degree test evaluation under CEAP-D4+.",
+        "4. Confirm post-quantum security margin and emit cross-domain claim assertion."
+      ]
+    },
+    {
+      "flow_id": "FLOW_ZKP_GAMMA_HYBRID",
+      "pq_binding": {
+        "coordinate": "pq_coord_dilithium5_gamma",
+        "scheme": "DILITHIUM5"
+      },
+      "proof_envelope_type": "PLONK_STARK_HYBRID_ENVELOPE",
+      "source_domain": "ecosystem_gamma.serenie.net",
+      "target_domain": "cluster_alpha.serenie.org",
+      "verification_steps": [
+        "1. Verify Dilithium5 signature anchor against ecosystem handle.",
+        "2. Extract hybrid commitment and public inputs CID.",
+        "3. Evaluate recursive PLONK-in-STARK proof under CEAP-D4+.",
+        "4. Confirm full privacy isolation and emit cross-domain claim assertion."
+      ]
+    }
+  ],
+  "version": "v2.1"
+}

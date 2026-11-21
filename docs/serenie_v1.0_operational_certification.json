@@ -1,0 +1,44 @@
+{
+  "agent_certification": {
+    "agent_id": "agent_b1aa24c0999bcf9e",
+    "agent_name": "omni_serenie_agent_v1",
+    "ceap_operating_level": "D_4",
+    "pipeline_stage_bindings": {
+      "BUILD": "serenie.orchestration.autonomous_pipeline:stage_build",
+      "CLEAN": "serenie.orchestration.autonomous_pipeline:stage_clean",
+      "CONFORMANCE": "serenie.orchestration.autonomous_pipeline:stage_conformance",
+      "RELEASE": "serenie.orchestration.autonomous_pipeline:stage_release",
+      "TEST": "serenie.orchestration.autonomous_pipeline:stage_test",
+      "VERIFY": "serenie.orchestration.autonomous_pipeline:stage_verify"
+    },
+    "sealed_profile_hash": "617119c3c008f84642bf9a42c3370d8ae98027169c147ab5eafc2a26ce905f18",
+    "skills_loaded_count": 15
+  },
+  "certification_hash": "6bd105fab9bfef861628817cff21f7c917dde5773bbb6dfbbbe03f5fdc0fd00c",
+  "certification_standard": "CEAP-D4 Operational Substrate Standard",
+  "conformance_verification": {
+    "conformance_checks_failed": 0,
+    "conformance_checks_passed": 3,
+    "invariants_verified": [
+      "INV_CAN_001",
+      "INV_DET_001",
+      "INV_JOURNAL_001"
+    ],
+    "journal_replay_equality": "VERIFIED",
+    "reproducibility_verdict": "BYTE_FOR_BYTE_IDENTICAL",
+    "verification_loop_runs": 5
+  },
+  "operational_capabilities": [
+    "RUN_LIFECYCLE_ON_DEMAND",
+    "VERIFY_DETERMINISM_ON_DEMAND",
+    "PRODUCE_REPRODUCIBLE_ARTIFACTS",
+    "MAINTAIN_SUBSTRATE_IMMUTABILITY"
+  ],
+  "substrate_status": "FROZEN_AND_CERTIFIED",
+  "substrate_version": "v1.0",
+  "verified_digests": {
+    "archive_sha256": "b3855615fb41a6532def08632bb3c8ffceb30579e9be63c8868d09b0378d14c0",
+    "manifest_sha256": "13c1d3a7345b20b58baca78b04d22798ed7186354c0dd469738a1df71b1a735d",
+    "release_bundle_sha256": "ab4457353fee1a4b46857bcb5fccbd13244dc879f2bf0e9e94e13202398b426b"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "ceap_operating_level": "D_4",
+  "conformance_artifacts": {
+    "golden_vectors_file": "/working_dir/serenie_v1.1_golden_vectors.json",
+    "html_projection_file": "/working_dir/serenie_v1.1_projection.html",
+    "json_projection_file": "/working_dir/serenie_v1.1_projection.json",
+    "proof_obligations_file": "/working_dir/serenie_v1.1_proof_obligations.json",
+    "replay_vectors_file": "/working_dir/serenie_v1.1_replay_vectors.json"
+  },
+  "execution_summary": {
+    "ceap_level": "D_4",
+    "claim_id": "8e70715ddfe0dea735728a77716232f9905f84e2b90f2e344db11806f9e3ac11",
+    "claims_count": 1,
+    "evidence_id": "a5df46cb656568c4be90e0d2375e26987a5047d02b9a065cfc074cb332e16eeb",
+    "final_state_content_id": "cbf908ad1367d70616b5b3e69fe0f9a77e118df26c68952de38dd3f10bece32e",
+    "html_projection_bytes": 481,
+    "journal_blocks": 1,
+    "json_projection_bytes": 828,
+    "slice_name": "v1_1_vertical_slice_main",
+    "step_index": 1
+  },
+  "pipeline_stages": [
+    "Canonicalization",
+    "Identity",
+    "Contract Validation",
+    "Transformation",
+    "Claim Emission",
+    "Evidence Generation",
+    "Journal Append",
+    "Projection (HTML/JSON)"
+  ],
+  "report_hash": "5e8169efbbed03494ecc7405c54819ef58dbc5fac0b8a6551ed2d8ccaf3f56b2",
+  "slice_name": "v1_1_vertical_slice_main",
+  "status": "INITIALIZED_AND_VERIFIED",
+  "v1_0_substrate_status": "UNTOUCHED_AND_FROZEN",
+  "version": "v1.1"
+}

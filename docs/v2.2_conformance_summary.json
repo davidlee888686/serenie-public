@@ -1,0 +1,10 @@
+{
+  "baselines_preserved": "v1.x, v2.0, v2.1, and v2.2 FROZEN_AND_IMMUTABLE",
+  "ceap_operating_level": "D_4_PLUS",
+  "overall_status": "100_PERCENT_REPRODUCIBLE_CONFORMANCE_PASS",
+  "phase": "V2-2.08",
+  "suite_cid_ref": "977b23f42eb4aa991af6532ad14972408a76bbcc40ca2470a2dba650fe61df6e",
+  "summary_cid": "c5c3d0d8c53254aae1aa031cf2fd3a3728e8e91e2792c62f6270d6cb27a0bf41",
+  "title": "Serenie v2.2 Conformance Summary Report",
+  "version": "v2.2"
+}

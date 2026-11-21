@@ -1,0 +1,24 @@
+{
+  "build_compatibility": {
+    "v1_x_baseline_compat": "BACKWARDS_COMPATIBLE_IMMUTABLE_FREEZE",
+    "v2_x_federation_compat": "FULL_CROSS_MESH_FEDERATION_COMPATIBLE",
+    "v3_0_civilization_compat": "NATIVE_CIVILIZATION_SCALE_ENGINE"
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "release_codename": "Civilization Scale Evolution (Phase Omega)",
+  "release_lifecycle_state": "CLOSED_AND_IMMUTABLE_CIVILIZATION_SUBSTRATE_V3_0",
+  "release_type": "MAJOR_RELEASE",
+  "semver": "3.0.0",
+  "substrate_version": "v3.0",
+  "title": "Serenie Substrate v3.0 Versioning Metadata",
+  "version_invariants": [
+    "INV_CAN_001 (Canonical Idempotence)",
+    "INV_DET_001 (CEAP Level D4+ Bounds)",
+    "INV_JOURNAL_001 (Unbroken Journal Hash Chain)",
+    "INV_FED3_001 (Galactic Inter-Ecosystem Continuity)",
+    "INV_ZKP_001 (PLONK/STARK Proof Envelope Integrity)",
+    "INV_PQ_001 (Dilithium5/Falcon-1024 Signature Seals)",
+    "INV_PERS_001 (Personality Trait Max +/- 0.05 Drift Boundary)"
+  ],
+  "versioning_cid": "9cc9a30cb948a6afb830911845343ece06055abe08bba126da4d6412c18d62d9"
+}

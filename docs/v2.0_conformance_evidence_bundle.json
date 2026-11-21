@@ -1,0 +1,40 @@
+{
+  "bundle_hash": "fe59db8c55df80f63f6f6757ee1aed41c5aaaa9560f507952145568450f240ae",
+  "ceap_operating_level": "D_4",
+  "evidence_records": [
+    {
+      "ceap_level": "D_4",
+      "check_id": "CHK_INV_FED_001",
+      "check_name": "Federated Identity & Cross-Cluster Replication",
+      "evidence_record_id": "ev_rec_cd5a4d412ec994588be4cbb6919c1e9e",
+      "verification_result": "PASS"
+    },
+    {
+      "ceap_level": "D_4",
+      "check_id": "CHK_INV_ZKP_001",
+      "check_name": "Zero-Knowledge Proof Envelope Isolation",
+      "evidence_record_id": "ev_rec_e6723745438fd70297e18c837dcfc262",
+      "verification_result": "PASS"
+    },
+    {
+      "ceap_level": "D_4",
+      "check_id": "CHK_INV_ADAPT_001",
+      "check_name": "Adaptive Contract Monotonicity",
+      "evidence_record_id": "ev_rec_e2affc72f19760f18b5b5d6f9617a5de",
+      "verification_result": "PASS"
+    },
+    {
+      "ceap_level": "D_4",
+      "check_id": "CHK_INV_PQ_001",
+      "check_name": "Post-Quantum SHA3-512 Coordinate Reproducibility",
+      "evidence_record_id": "ev_rec_fc9465daa61078b43283a205d817d196",
+      "verification_result": "PASS"
+    }
+  ],
+  "full_conformance_status": "FULL_CONFORMANCE_VERIFIED_CEAP_D4",
+  "phase": "V2-07",
+  "reproducibility": "100_PERCENT_BYTE_FOR_BYTE_REPRODUCIBLE",
+  "title": "v2.0 Conformance Evidence Bundle",
+  "total_iterations": 10,
+  "version": "v2.0"
+}

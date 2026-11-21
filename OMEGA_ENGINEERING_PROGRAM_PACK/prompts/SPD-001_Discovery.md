@@ -1,0 +1,1 @@
+Audit repository only. Produce readiness reports. No code changes. STOP.

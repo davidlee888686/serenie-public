@@ -1,0 +1,51 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "harness_cid": "6cec9b6024bb42480825e6c5c83e2854c9ca51fbd13ebbedf5c33e19523ec3a3",
+  "harness_determinism": "100_PERCENT_BYTE_EXACT_REPRODUCIBLE_SIMULATION",
+  "phase": "Phase 05",
+  "sandbox_clusters": [
+    {
+      "domain": "cluster_alpha.serenie.org",
+      "pq_scheme": "DILITHIUM5",
+      "role": "PRIMARY_FEDERATED_SANDBOX_NODE",
+      "zkp_envelope": "PLONK_PROOF_ENVELOPE"
+    },
+    {
+      "domain": "cluster_beta.serenie.org",
+      "pq_scheme": "FALCON1024",
+      "role": "SOVEREIGN_SANDBOX_NODE",
+      "zkp_envelope": "STARK_PROOF_ENVELOPE"
+    },
+    {
+      "domain": "ecosystem_gamma.serenie.net",
+      "pq_scheme": "DILITHIUM5",
+      "role": "COLLECTIVE_MESH_SANDBOX_NODE",
+      "zkp_envelope": "PLONK_STARK_HYBRID_ENVELOPE"
+    }
+  ],
+  "subsystems": {
+    "evidence_replay_recovery_subsystem": {
+      "description": "Provides cryptographic evidence collection, 100% byte-exact journal replay, and self-healing restoration.",
+      "enforcement": "CEAP_D4_PLUS_UNBROKEN_HASH_CHAIN",
+      "status": "OPERATIONAL"
+    },
+    "federation_propagation_engine": {
+      "description": "Simulates cross-cluster envelope broadcasts, Dilithium5/Falcon-1024 signatures, and PLONK/STARK ZKP proofs.",
+      "enforcement": "CEAP_D4_PLUS_BYTE_EXACT_REPLICATION",
+      "status": "OPERATIONAL"
+    },
+    "governance_simulation_engine": {
+      "description": "Simulates multi-ecosystem policy arbitration, voting consensus, and invariant compliance.",
+      "enforcement": "CEAP_D4_PLUS_STRICT_GOVERNANCE",
+      "status": "OPERATIONAL"
+    },
+    "personality_interaction_engine": {
+      "description": "Simulates agent trait vectors, sentiment propagation, and collective intelligence alignment.",
+      "enforcement": "CEAP_D4_PLUS_DETERMINISTIC_TRAITS",
+      "status": "OPERATIONAL"
+    }
+  },
+  "title": "Serenie v3.0 Civilization Simulation Harness Specification",
+  "total_sandbox_clusters": 3,
+  "version": "v3.0"
+}

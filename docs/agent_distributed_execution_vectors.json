@@ -1,0 +1,31 @@
+{
+  "ceap_level": "D_4",
+  "execution_vectors": [
+    {
+      "agent_id": "agent_omni_orchestration_v1.3",
+      "execution_result_cid": "ce87ddf8fd911e94f2eaf276c4a25b1474ba7ae906d5a457a8417fda1bb52922",
+      "prev_block_hash": "GENESIS_HASH_CEAP_D4",
+      "status": "EXECUTED_CEAP_D4",
+      "step_index": 0,
+      "task_schedule_id": "830e7ed81131cceebe6d30916c9f409873528ae633720c762681b2210b181b4f"
+    },
+    {
+      "agent_id": "agent_python_substrate_v1.3",
+      "execution_result_cid": "9353711e326439be2aa9d470df1a26286dcc6cdc74ffdbe691951b2fdef56c5e",
+      "prev_block_hash": "ce87ddf8fd911e94f2eaf276c4a25b1474ba7ae906d5a457a8417fda1bb52922",
+      "status": "EXECUTED_CEAP_D4",
+      "step_index": 1,
+      "task_schedule_id": "91eff5b3ece4056b79b919be7e3c74e5c405157ac8f85438ed53a5083cd48e04"
+    },
+    {
+      "agent_id": "agent_rust_substrate_v1.3",
+      "execution_result_cid": "f7e6daacfa1e2e6126a7c45a01a26d154047ff6a3d94723a4e8a629488c8c6eb",
+      "prev_block_hash": "9353711e326439be2aa9d470df1a26286dcc6cdc74ffdbe691951b2fdef56c5e",
+      "status": "EXECUTED_CEAP_D4",
+      "step_index": 2,
+      "task_schedule_id": "5749a6582542108582025b1e74fe49f1fbad80a552636feda5cc4aa282b97483"
+    }
+  ],
+  "total_executed_batch_steps": 3,
+  "version": "v1.4"
+}

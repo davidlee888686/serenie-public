@@ -1,0 +1,24 @@
+{
+  "manifest_id": "SERENIE_V2_4_UNIFIED_RELEASE_MANIFEST",
+  "version": "2.4.0",
+  "timestamp": "2026-08-03T03:50:00-05:00",
+  "ceap_level": "D_4",
+  "artefacts": [
+    "v2.4_architecture_brief.json",
+    "v2.4_system_topology.json",
+    "v2.4_coordination_vectors.json",
+    "v2.4_collaboration_vectors.json",
+    "v2.4_autonomy_vectors.json",
+    "v2.4_intelligence_vectors.json",
+    "v2.4_cognitive_mesh_spec.json",
+    "v2.4_federated_cluster_integration.json",
+    "v2.4_external_integration_contracts.json",
+    "v2.4_ai_onboarding_kit.json",
+    "v2.4_ai_operational_rules.json",
+    "v2.4_unified_output_bundle.json",
+    "serenie_ai_bundle_v2_4.json",
+    "v2.4_completion_record.json",
+    "v2.4_operational_certification.json"
+  ],
+  "substrate_status": "FROZEN_AND_SEALED"
+}

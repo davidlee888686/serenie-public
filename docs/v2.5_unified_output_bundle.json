@@ -1,0 +1,19 @@
+{
+  "bundle_cid": "04ab00e1b0b24dd17c7dbe1710b6b22c60b6c5fe96d6e48d7cea4ce8d5a40f0e",
+  "bundle_status": "UNIFIED_OUTPUT_BUNDLE_SEALED",
+  "ceap_operating_level": "D_4_PLUS",
+  "included_artifact_hashes": {
+    "v2.5_ai_bundle_manifest.json": "94f1ff64b5ed56f8bcf7a725df548bd6ba5655ba91095ccfa9d61d911a1e3d22",
+    "v2.5_ecosystem_governance_spec.json": "7c32af87d081fb09083dee54e1230d07c970be7ece61b1edf7249290dda6e729",
+    "v2.5_ecosystem_whitepaper.json": "704f54b28ed1f48791ae6ef7de0bade76c5c7cf2157b7a2e051816f494555980",
+    "v2.5_federation_vectors.json": "a360c5e7960508ba6f0779a3dd2c9c3e0611a3313ed2504731cfd338d8f101a4",
+    "v2.5_governance_vectors.json": "5cf103d2f783aed0ab669393b3b7fadceebbf1ece7852bd5b2fa48cd4ef8d775",
+    "v2.5_multi_ecosystem_federation_spec.json": "6ece29bced00ba3b71f03d7dea0f95c9b1bda10824cbbd02378ce0059fcd06ea",
+    "v2.5_personality_profile_spec.json": "f4392bc52bb5de7e88b435ab4673cbf896eb12fc12e4ae66ddf22f819f2f7fd5",
+    "v2.5_personality_vectors.json": "d88b50244056e7326a89fecd62be61676c8e0fbfbed5589259a48bf3c3a6cc9d",
+    "v2.5_simulation_scenario_pack.json": "01f13fc87eb2ade0a61b8f320be51a9e2bbb3952e42eec158a61f0ebb929e434"
+  },
+  "phase": "PHASE_L",
+  "title": "Serenie v2.5 Unified Final Output Bundle",
+  "version": "v2.5"
+}

@@ -1,0 +1,48 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "execution_verdict": "CIVILIZATION_HARNESS_VERIFIED_AND_SEALED",
+  "harness_cid": "39e089768c7292776a26e2194510307aa519d2c78ee78e71987f38bd0ed1ff58",
+  "harness_determinism": "CEAP_D4_PLUS_STRICT_SANDBOX_ISOLATION",
+  "harness_subsystems": {
+    "deterministic_sandbox": {
+      "description": "Multi-civilization execution environment with byte-exact state capture and sandbox isolation.",
+      "isolation_boundary": "CEAP_D4_PLUS_CONTAINED_SANDBOX",
+      "target_civilizations": [
+        "civ_alpha.serenie.org",
+        "civ_beta.serenie.org",
+        "civ_gamma.serenie.net"
+      ]
+    },
+    "evidence_replay_recovery_subsystem": {
+      "description": "100% historical replay verification, evidence record generation, and automatic checkpoint restoration.",
+      "replay_horizon_capacity": "500_YEAR_EQUIVALENT_STEPS",
+      "rules": [
+        "CIV_INV_001_DETERMINISTIC_EXECUTION",
+        "CIV_INV_002_REPRODUCIBILITY"
+      ]
+    },
+    "federation_propagation_sim_engine": {
+      "description": "Simulates cross-civilization routing, network partitions, and self-healing consensus.",
+      "rules": "FED3_INV_002_CROSS_CIVILIZATION_HEALING",
+      "topology": "CONTENT_ADDRESSABLE_FEDERATED_MESH"
+    },
+    "governance_sim_engine": {
+      "arbitration_mode": "DETERMINISTIC_VOTING_ARBITRATION",
+      "description": "Simulates voting rounds, constitutional amendments, proposal deliberation, and arbitration disputes.",
+      "rules": "CIV_INV_004_GOVERNANCE_CONSENSUS"
+    },
+    "personality_sim_engine": {
+      "archetypes_supported": [
+        "EXPLORER",
+        "GUARDIAN",
+        "ARCHITECT",
+        "ARBITRATOR"
+      ],
+      "description": "Simulates multi-agent trait adaptation, compatibility checks, and conflict resolution across archetypes.",
+      "rules": "CIV_INV_005_PERSONALITY_TAXONOMY"
+    }
+  },
+  "phase": "PHASE_5_SIMULATION_HARNESS",
+  "title": "Serenie v3.0 Civilization Simulation Harness Specification",
+  "version": "v3.0"
+}

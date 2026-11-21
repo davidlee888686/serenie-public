@@ -1,0 +1,43 @@
+{
+  "manifest_version": "1.1.0",
+  "substrate": "Serenie Substrate v1.0",
+  "auto_load_on_init": true,
+  "skills": {
+    "kernel.canonicalization": { "ceap": "D_3", "category": "Kernel" },
+    "kernel.identity":         { "ceap": "D_4", "category": "Kernel" },
+    "kernel.contract":         { "ceap": "D_3", "category": "Kernel" },
+    "kernel.ceap":             { "ceap": "D_4", "category": "Kernel" },
+    "kernel.transformation":   { "ceap": "D_2", "category": "Kernel" },
+    "kernel.evidence":         { "ceap": "D_4", "category": "Kernel" },
+    "kernel.journal":          { "ceap": "D_3", "category": "Kernel" },
+    "kernel.projection":       { "ceap": "D_3", "category": "Kernel" },
+
+    "runtime.self_healing":    { "ceap": "D_2", "category": "Runtime" },
+    "runtime.execution":       { "ceap": "D_2", "category": "Runtime" },
+    "runtime.checkpoint":      { "ceap": "D_3", "category": "Runtime" },
+    "runtime.fallback":        { "ceap": "D_2", "category": "Runtime" },
+
+    "pipeline.orchestration":  { "ceap": "D_2", "category": "Pipeline" },
+    "pipeline.logging":        { "ceap": "D_3", "category": "Pipeline" },
+    "pipeline.recovery":       { "ceap": "D_2", "category": "Pipeline" },
+    "pipeline.determinism":    { "ceap": "D_4", "category": "Pipeline" },
+
+    "conformance.validator":   { "ceap": "D_3", "category": "Conformance" },
+    "build.packager":          { "ceap": "D_3", "category": "Build" },
+    "release.verifier":        { "ceap": "D_4", "category": "Release" },
+
+    "meta.registry":           { "ceap": "D_3", "category": "Meta" },
+    "meta.router":             { "ceap": "D_3", "category": "Meta" },
+    "meta.sandbox":            { "ceap": "D_2", "category": "Meta" },
+    "meta.bootloader":         { "ceap": "D_3", "category": "Meta" },
+    "meta.hot_patch_guard":    { "ceap": "D_4", "category": "Meta" },
+
+    "parallel.executor":       { "ceap": "D_2", "category": "Concurrency" },
+    "parallel.barrier":        { "ceap": "D_3", "category": "Concurrency" },
+
+    "bridge.workspace_sync":   { "ceap": "D_3", "category": "Bridge" },
+    "bridge.task_manager":     { "ceap": "D_2", "category": "Bridge" },
+
+    "sovereign.merkle_lock":   { "ceap": "D_4", "category": "Sovereignty" }
+  }
+}

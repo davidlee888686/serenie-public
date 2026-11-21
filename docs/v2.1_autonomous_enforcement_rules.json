@@ -1,0 +1,46 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "enforcement_loops": [
+    {
+      "action": "AUTO_TRIGGER_RULE_REC_001_JOURNAL_REPAIR",
+      "enforcement_level": "CEAP_D4_PLUS_STRICT",
+      "loop_id": "LOOP_001_JOURNAL_CONTINUITY",
+      "target_layer": "Journal Hash Chain Integrity",
+      "trigger": "DISCREPANCY_DETECTED_IN_BLOCK_HASH"
+    },
+    {
+      "action": "AUTO_TRIGGER_RULE_REC_002_ENVELOPE_REPROPAGATION",
+      "enforcement_level": "CEAP_D4_PLUS_STRICT",
+      "loop_id": "LOOP_002_ENVELOPE_PROPAGATION",
+      "target_layer": "Federation Envelope Replication",
+      "trigger": "MISSING_ENVELOPE_BROADCAST_EVENT"
+    },
+    {
+      "action": "AUTO_TRIGGER_RULE_REC_003_TELEMETRY_REALIGNMENT",
+      "enforcement_level": "CEAP_D4_PLUS_STRICT",
+      "loop_id": "LOOP_003_ZKP_PQ_VERIFICATION",
+      "target_layer": "ZKP/PQ Verification Cycles",
+      "trigger": "EXPIRED_OR_INVALID_PROOF_COMMITMENT"
+    },
+    {
+      "action": "AUTO_TRIGGER_RULE_REC_004_STATE_CORRECTION",
+      "enforcement_level": "CEAP_D4_PLUS_STRICT",
+      "loop_id": "LOOP_004_ROUTING_ONBOARDING_CORRECTION",
+      "target_layer": "Routing Table & Onboarding State",
+      "trigger": "UNAUTHORIZED_AGENT_ACCESS_ATTEMPT"
+    },
+    {
+      "action": "AUTO_ISOLATE_NODE_AND_REPLAY_CHECKPOINT",
+      "enforcement_level": "CEAP_D4_PLUS_STRICT",
+      "loop_id": "LOOP_005_STABILITY_RECOVERY_TRIGGER",
+      "target_layer": "Ecosystem Fault Isolation",
+      "trigger": "CLUSTER_NODE_DESYNC_ALERT"
+    }
+  ],
+  "enforcement_status": "AUTONOMOUS_ENFORCEMENT_LOOPS_SEALED",
+  "phase": "V2-1.10",
+  "rules_cid": "aaa609969834797991af3a5beacba49e13de898edc7de0ae736d75228b70612d",
+  "title": "v2.1 Autonomous CEAP-D4+ Enforcement Rules Specification",
+  "total_enforcement_loops": 5,
+  "version": "v2.1"
+}

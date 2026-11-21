@@ -1,0 +1,60 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "evaluation_stage": "MULTI_RUN_REPRODUCIBILITY",
+  "iteration_count": 10,
+  "report_cid": "720112f38eb1814bc36ccb0a83791cb9df449832ff5d3759f4bba7b0ed34c0c7",
+  "reproducibility_checks": [
+    {
+      "byte_exact_match": true,
+      "hash_mismatch_count": 0,
+      "iteration": 1
+    },
+    {
+      "byte_exact_match": true,
+      "hash_mismatch_count": 0,
+      "iteration": 2
+    },
+    {
+      "byte_exact_match": true,
+      "hash_mismatch_count": 0,
+      "iteration": 3
+    },
+    {
+      "byte_exact_match": true,
+      "hash_mismatch_count": 0,
+      "iteration": 4
+    },
+    {
+      "byte_exact_match": true,
+      "hash_mismatch_count": 0,
+      "iteration": 5
+    },
+    {
+      "byte_exact_match": true,
+      "hash_mismatch_count": 0,
+      "iteration": 6
+    },
+    {
+      "byte_exact_match": true,
+      "hash_mismatch_count": 0,
+      "iteration": 7
+    },
+    {
+      "byte_exact_match": true,
+      "hash_mismatch_count": 0,
+      "iteration": 8
+    },
+    {
+      "byte_exact_match": true,
+      "hash_mismatch_count": 0,
+      "iteration": 9
+    },
+    {
+      "byte_exact_match": true,
+      "hash_mismatch_count": 0,
+      "iteration": 10
+    }
+  ],
+  "reproducibility_verdict": "100_PERCENT_BYTE_EXACT_REPRODUCIBLE",
+  "version": "v2.3"
+}

@@ -1,0 +1,70 @@
+{
+  "abstract": "The Serenie Substrate represents an autonomous, deterministic multi-agent ecosystem architecture operating under CEAP-D4+ level verification, post-quantum signatures (Dilithium5 / Falcon-1024), zero-knowledge proof envelopes (PLONK / STARK), and 100% byte-for-byte multi-run reproducibility.",
+  "ceap_operating_level": "D_4_PLUS",
+  "phase": "PHASE_6_WHITEPAPER",
+  "section_1_architecture_and_topology": {
+    "core_substrate": "Serenie Kernel v1.0 (Frozen and Immutable)",
+    "v2_0_foundations": "Post-Quantum Identity, ZKP Envelopes, Adaptive Runtime",
+    "v2_1_federation": "Multi-Tenant Identity, Adaptive Routing, Onboarding",
+    "v2_2_intelligence": "Cognitive Mesh, Federated Reasoning, Insight Synthesis",
+    "v2_5_omega_ecosystem": "Governance Protocol, Agent Personality Profiles, Multi-Ecosystem Federation, Constitution, and Simulation Harness"
+  },
+  "section_2_governance_model_and_constitution": {
+    "constitution": "Global Ecosystem Constitution for Serenie Substrate",
+    "governance_engine": "EcosystemGovernanceEngine",
+    "quorum_rule": "2/3 supermajority cryptographic voting"
+  },
+  "section_3_multi_agent_evolution_stack": {
+    "v1_1": "Deterministic Vertical Slice Pipeline",
+    "v1_2": "Multi-Runtime Equivalence Layer (Python vs Rust)",
+    "v1_3": "Multi-Agent Exchange Protocol",
+    "v1_4": "Deterministic Scheduling, Negotiation, Execution Primitives",
+    "v1_5": "Shared Canonical State & Projection Recomputation",
+    "v1_6": "Collective Intelligence Reasoning Trees & Voting Consensus",
+    "v1_7": "Collective Autonomy Autonomous Decision Loops"
+  },
+  "section_4_personality_profile_system_and_taxonomy": {
+    "bias_correction": "Force journal replay and canonicalize state deltas",
+    "personality_engine": "AutonomousPersonalityEngine",
+    "traits": [
+      "DEDUCTIVE_RIGOR",
+      "REFERENTIAL_TRANSPARENCY",
+      "EVIDENCE_AUDITABILITY",
+      "COLLABORATIVE_CONSENSUS",
+      "SOVEREIGN_AUTONOMY"
+    ]
+  },
+  "section_5_multi_ecosystem_federation_design": {
+    "federation_engine": "MultiEcosystemFederationEngine",
+    "proof_system": "PLONK/STARK Hybrid Zero-Knowledge Proof Envelopes",
+    "target_domains": [
+      "cluster_alpha.serenie.org",
+      "cluster_beta.serenie.org",
+      "ecosystem_gamma.serenie.net"
+    ]
+  },
+  "section_6_cognitive_mesh_and_federated_reasoning": {
+    "consensus": "Weighted Majority Voting Consensus over Recomputable Projections",
+    "reasoning_engine": "DeterministicFederatedReasoningEngine"
+  },
+  "section_7_simulation_harness_overview": {
+    "sandbox": "EcosystemSimulationHarness",
+    "scenarios": "Multi-Ecosystem Simulation Scenario Pack"
+  },
+  "section_8_ceap_d4_plus_compliance_and_invariants": {
+    "invariants": [
+      "INV_CAN_001",
+      "INV_DET_001",
+      "INV_JOURNAL_001",
+      "INV_FED_001",
+      "INV_FED_002",
+      "INV_FED_003",
+      "INV_GOV_001",
+      "INV_GOV_002"
+    ],
+    "reproducibility": "100% byte-exact multi-run reproducibility"
+  },
+  "title": "Serenie Substrate: Full Ecosystem Whitepaper and Architectural Foundation",
+  "version": "v2.5_omega",
+  "whitepaper_cid": "760ead5233dca6ba94568cdbc55cf9706a73be1e5373274749b04803435cad31"
+}

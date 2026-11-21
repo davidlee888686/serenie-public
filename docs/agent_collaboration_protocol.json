@@ -1,0 +1,37 @@
+{
+  "ceap_operating_level": "D_4",
+  "collaboration_rules": [
+    {
+      "rule_id": "COL_RULE_001_D4_SHARED_CONSENSUS",
+      "statement": "All shared state transformations and workflow steps must yield byte-identical content IDs across all agents."
+    },
+    {
+      "rule_id": "COL_RULE_002_RECOMPUTABILITY",
+      "statement": "All shared projections must be 100% recomputable from joint evidence records."
+    }
+  ],
+  "primitives": [
+    {
+      "description": "Deterministic canonical state synchronization and merging across agents.",
+      "name": "shared_canonical_state",
+      "primitive_id": "COL_001_SHARED_STATE"
+    },
+    {
+      "description": "Contract-governed multi-agent collaborative workflow execution.",
+      "name": "shared_deterministic_workflows",
+      "primitive_id": "COL_002_SHARED_WORKFLOW"
+    },
+    {
+      "description": "Joint multi-agent evidence generation and assertion verification.",
+      "name": "shared_evidence_generation",
+      "primitive_id": "COL_003_SHARED_EVIDENCE"
+    },
+    {
+      "description": "Pure recomputable shared projection rendering.",
+      "name": "shared_projection_recomputation",
+      "primitive_id": "COL_004_SHARED_PROJECTION"
+    }
+  ],
+  "protocol_name": "CEAP_D4_MultiAgent_Collaboration_Protocol",
+  "version": "v1.5"
+}

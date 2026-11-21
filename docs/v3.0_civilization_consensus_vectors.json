@@ -1,0 +1,20 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "consensus_vectors": [
+    {
+      "agreed_state_hash": "b259c3dc331936498bfb78763f5e7fe4e1b86b50840376f1123a8d37600108f4",
+      "consensus_threshold": "SUPERMAJORITY_66_PERCENT",
+      "participating_civs": [
+        "civ_alpha_primus",
+        "civ_beta_secundus",
+        "civ_gamma_tertius"
+      ],
+      "round_id": "CONS_ROUND_301",
+      "status": "CONVERGED_DETERMINISTIC"
+    }
+  ],
+  "doc_hash": "3ef18377d2d37410075a302c118f4fb224783892f11430bef1853a36831e9f55",
+  "phase": "PHASE_3_CONSENSUS_VECTORS",
+  "title": "v3.0 Civilization Consensus Vectors",
+  "version": "v3.0"
+}

@@ -1,0 +1,10 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "certification_cid": "cd006a984282b3f46d0c9f423b077b03e0336764075f44336bd576177efeed4e",
+  "certification_verdict": "CERTIFIED_OPERATIONAL_RELEASE_V2_5",
+  "invariant_audit": "ALL_INVARIANTS_INV_CAN_001_DET_001_JOURNAL_001_FED_001_003_ZKP_001_ADAPT_001_GOV_001_002_PASSED",
+  "multi_run_reproducibility": "100_PERCENT_BYTE_FOR_BYTE_VERIFIED",
+  "phase": "PHASE_L",
+  "title": "Serenie v2.5 Operational Certification",
+  "version": "v2.5"
+}

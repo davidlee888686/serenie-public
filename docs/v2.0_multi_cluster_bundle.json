@@ -1,0 +1,21 @@
+{
+  "assembly_status": "MULTI_CLUSTER_BUNDLE_ASSEMBLED_CEAP_D4_PLUS",
+  "bundle_cid": "d7e12258e2ba19648974f7482217367fb3a53474188eece744b621fa5dcbff57",
+  "ceap_operating_level": "D_4_PLUS",
+  "clusters_assembled": [
+    "cluster_alpha.serenie.org",
+    "cluster_beta.serenie.org"
+  ],
+  "federated_semantics_ref": "Federated Cluster Semantics & Execution Rules",
+  "phase": "V2-08",
+  "post_quantum_scheme": {
+    "algorithm": "DILITHIUM5_FALCON1024_SHA3_512",
+    "pq_coordinate_id": "pq_coord_f1005704106ed181fb49192e52514394"
+  },
+  "title": "v2.0 Multi-Cluster Runtime Assembly Bundle",
+  "version": "v2.0",
+  "zkp_proof_system": {
+    "envelope_id": "zkp_env_3f7e878bc0aa438ad319fd763922d595",
+    "proof_system": "PLONK_STARK_HYBRID_CEAP_D4_PLUS"
+  }
+}

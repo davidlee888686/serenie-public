@@ -1,0 +1,24 @@
+{
+  "ceap_level": "D_4",
+  "comparison": "python_vs_rust_replay_vectors",
+  "divergent_count": 0,
+  "identical_count": 1,
+  "results": [
+    {
+      "python_output": {
+        "expected_content_id": "cbf908ad1367d70616b5b3e69fe0f9a77e118df26c68952de38dd3f10bece32e",
+        "replay_id": "REPLAY_001",
+        "status": "DETERMINISTIC_MATCH"
+      },
+      "replay_equivalence_status": "IDENTICAL",
+      "replay_id": "REPLAY_001",
+      "rust_output": {
+        "expected_content_id": "cbf908ad1367d70616b5b3e69fe0f9a77e118df26c68952de38dd3f10bece32e",
+        "replay_id": "REPLAY_001",
+        "status": "DETERMINISTIC_MATCH"
+      }
+    }
+  ],
+  "total_replays": 1,
+  "version": "v1.2"
+}

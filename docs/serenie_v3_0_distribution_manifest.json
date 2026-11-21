@@ -1,0 +1,32 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "distribution_manifest_cid": "2a65d82f93d5f9443c4fd3d60649357e32f1f9a4c707c99c184724bc706adf4e",
+  "distribution_status": "READY_FOR_EXTERNAL_DISTRIBUTION",
+  "distribution_verdict": "SERENIE_V3_0_EXTERNAL_DISTRIBUTION_MANIFEST_CERTIFIED",
+  "major_release_artifacts_included": [
+    "serenie_v3_0_frozen_substrate_manifest.json",
+    "serenie_v3_0_final_seal_certificate.json",
+    "serenie_v3_0_final_freeze_record.json",
+    "serenie_v3_0_unified_output_bundle.json",
+    "serenie_ai_bundle_v3_0.json",
+    "serenie_v3_0_whitepaper.json",
+    "serenie_v3_0_major_release_verification.json",
+    "serenie_v3_0_completion_record.json",
+    "serenie_v3_0_operational_certification.json",
+    "serenie_v3_0_release_manifest.json"
+  ],
+  "metadata_registry": {
+    "checksum_registry_cid": "0809aa21365c01b2e1fa0801a7c58f350dfb26c1efd355cbe30fb7256603bd1c",
+    "external_docs_alignment_cid": "07f6dd922e495ec0f4f4484504c3f8d90a416ae5352359bde0fcb854e0f80ffe",
+    "release_notes_cid": "1a8662df439581997970950c73d06f92ee6f5fe528aa0efe5a798d921d29b609",
+    "signature_registry_cid": "0d41156868f6c945e1bbbb246995e1d252157ab86b4b5bca666b49f9bc3ec63a",
+    "versioning_metadata_cid": "9cc9a30cb948a6afb830911845343ece06055abe08bba126da4d6412c18d62d9"
+  },
+  "primary_package_zip": {
+    "path": "/working_dir/serenie_v3_0_major_release_package.zip",
+    "sha256_digest": "53e276a9e32e77d1e311815d0683717f1bfc1726afa33c49f8594837108076ae"
+  },
+  "semver": "3.0.0",
+  "substrate_version": "v3.0",
+  "title": "Serenie Substrate v3.0 Full External Distribution Manifest"
+}

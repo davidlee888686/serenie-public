@@ -1,0 +1,45 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "doc_hash": "2263cf5f29616957d76e90e1873a9b343221fa2890cadc1747fa5f0fd144097c",
+  "phase": "PHASE_5_SIMULATION_SCENARIO_PACK",
+  "scenarios": [
+    {
+      "category": "GOVERNANCE_ARBITRATION",
+      "description": "Two federation nodes propose conflicting constitutional amendments; harness executes deterministic voting arbitration.",
+      "expected_outcome": "ARBITRATION_PASSED_CIV_INV_004_VERIFIED",
+      "name": "Multi-Civilization Constitution Discrepancy Crisis",
+      "scenario_id": "SCEN_CIV_001_GOVERNANCE_CRISIS"
+    },
+    {
+      "category": "PERSONALITY_CONFLICT",
+      "description": "High-adaptability Explorer attempts out-of-bounds routing; Guardian enforces trait limits.",
+      "expected_outcome": "RECONCILIATION_SUCCESSFUL_CIV_INV_005_VERIFIED",
+      "name": "Explorer vs Guardian Personality Invariant Tension",
+      "scenario_id": "SCEN_CIV_002_PERSONALITY_RECONCILIATION"
+    },
+    {
+      "category": "FEDERATION_PARTITION",
+      "description": "Simulates temporary network partition between civ_alpha and civ_gamma, followed by automatic journal hash-chain healing.",
+      "expected_outcome": "HEALING_COMPLETE_FED3_INV_002_VERIFIED",
+      "name": "Cross-Civilization Relay Partition and Self-Healing",
+      "scenario_id": "SCEN_CIV_003_PARTITION_HEALING"
+    },
+    {
+      "category": "LONG_HORIZON_REPLAY",
+      "description": "Replays 1,000,000 state transitions from genesis block to verify 100% byte-for-byte state equality.",
+      "expected_outcome": "REPLAY_PASS_CIV_INV_002_VERIFIED",
+      "name": "500-Year Historical State Replay Verification",
+      "scenario_id": "SCEN_CIV_004_LONG_HORIZON_REPLAY"
+    },
+    {
+      "category": "CONSTITUTION_STRESS_TEST",
+      "description": "Simulates 10,000 concurrent invalid state delta mutations to test boundary quarantine.",
+      "expected_outcome": "QUARANTINE_100_PERCENT_CIV_INV_001_VERIFIED",
+      "name": "Adversarial Invariant Stress-Test",
+      "scenario_id": "SCEN_CIV_005_CONSTITUTION_STRESS_TEST"
+    }
+  ],
+  "title": "v3.0 Civilization Simulation Scenario Pack",
+  "total_scenarios": 5,
+  "version": "v3.0"
+}

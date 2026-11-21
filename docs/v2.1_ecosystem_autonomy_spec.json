@@ -1,0 +1,34 @@
+{
+  "autonomy_guarantee": "ZERO_HUMAN_INTERVENTION_STATE_SEALING",
+  "autonomy_models": [
+    {
+      "autonomy_level": "CEAP_D4_PLUS_FULLY_AUTONOMOUS",
+      "domain": "cluster_alpha.serenie.org",
+      "enforcement_mode": "SELF_GOVERNING_PRIMARY_NODE",
+      "loop_frequency": "REAL_TIME_STEP_MONITORING"
+    },
+    {
+      "autonomy_level": "CEAP_D4_PLUS_FULLY_AUTONOMOUS",
+      "domain": "cluster_beta.serenie.org",
+      "enforcement_mode": "SELF_GOVERNING_SOVEREIGN_NODE",
+      "loop_frequency": "REAL_TIME_STEP_MONITORING"
+    },
+    {
+      "autonomy_level": "CEAP_D4_PLUS_FULLY_AUTONOMOUS",
+      "domain": "ecosystem_gamma.serenie.net",
+      "enforcement_mode": "SELF_GOVERNING_COLLECTIVE_MESH",
+      "loop_frequency": "REAL_TIME_STEP_MONITORING"
+    }
+  ],
+  "bound_foundations": {
+    "map_cid": "81e1868f7bf5be4a7ee94a482e8de9b45ba4d0d080ac0f8142b88dac62c600ff",
+    "stability_spec_cid": "206f5c404ff93cf698e11ed3e4a124370f7cd37ed1595a9650b0b3a628d9dcbc",
+    "sync_spec_cid": "021744d1789c184a37084eebef5fa0d75798d516502e0b14f35dce0bec85ba98"
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "phase": "V2-1.10",
+  "spec_cid": "83a88fd364f691124843c7cc59fdc68e04a27c1efaf6ba35b8bc7ca708e7008a",
+  "title": "v2.1 Ecosystem Autonomy Specification",
+  "total_autonomy_models": 3,
+  "version": "v2.1"
+}

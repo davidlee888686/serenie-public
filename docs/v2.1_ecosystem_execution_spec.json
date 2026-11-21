@@ -1,0 +1,59 @@
+{
+  "bound_foundations": {
+    "envelope_spec_cid": "69086e058ae7a0607226c0dbc189fa3a0eeff08b3772075964a514933b7a704c",
+    "map_cid": "81e1868f7bf5be4a7ee94a482e8de9b45ba4d0d080ac0f8142b88dac62c600ff",
+    "routing_table_cid": "cabb5c9fbfc5cc2fa29fe0d90228181e381d929ca2f4e820b2e1a3598150007c"
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "execution_determinism": "100_PERCENT_REPRODUCIBLE_JOURNAL_HASH_CHAIN",
+  "execution_models": [
+    {
+      "domain": "cluster_alpha.serenie.org",
+      "execution_role": "PRIMARY_FEDERATED_EXECUTOR",
+      "execution_sequence": [
+        "1. Ingest incoming federation envelope.",
+        "2. Validate PQ Dilithium5 signature anchor.",
+        "3. Evaluate PLONK proof envelope under CEAP-D4+.",
+        "4. Execute canonical transformation step.",
+        "5. Commit block to unbroken execution journal."
+      ],
+      "supported_envelopes": [
+        "PLONK_PROOF_ENVELOPE",
+        "PLONK_STARK_HYBRID_ENVELOPE"
+      ]
+    },
+    {
+      "domain": "cluster_beta.serenie.org",
+      "execution_role": "SOVEREIGN_FEDERATED_EXECUTOR",
+      "execution_sequence": [
+        "1. Ingest incoming federation envelope.",
+        "2. Validate PQ Falcon-1024 signature anchor.",
+        "3. Evaluate STARK proof envelope under CEAP-D4+.",
+        "4. Execute canonical transformation step.",
+        "5. Commit block to unbroken execution journal."
+      ],
+      "supported_envelopes": [
+        "STARK_PROOF_ENVELOPE"
+      ]
+    },
+    {
+      "domain": "ecosystem_gamma.serenie.net",
+      "execution_role": "COLLECTIVE_MESH_EXECUTOR",
+      "execution_sequence": [
+        "1. Ingest incoming federation envelope.",
+        "2. Validate PQ Dilithium5 signature anchor.",
+        "3. Evaluate recursive PLONK/STARK hybrid proof.",
+        "4. Execute canonical transformation step.",
+        "5. Commit block to unbroken execution journal."
+      ],
+      "supported_envelopes": [
+        "PLONK_STARK_HYBRID_ENVELOPE"
+      ]
+    }
+  ],
+  "phase": "V2-1.07",
+  "spec_cid": "02163982724c2c7fcb4786c5676d964f8a1947d1fee5a218764442f3536412b7",
+  "title": "v2.1 Ecosystem Execution Specification",
+  "total_execution_models": 3,
+  "version": "v2.1"
+}

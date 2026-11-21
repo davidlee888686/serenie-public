@@ -1,0 +1,37 @@
+{
+  "ceap_operating_level": "D_4",
+  "collective_rules": [
+    {
+      "rule_id": "COLLECTIVE_RULE_001_D4_SYNTHESIS",
+      "statement": "All collective reasoning, consensus, optimization, and synthesis outputs must yield identical SHA-256 content IDs."
+    },
+    {
+      "rule_id": "COLLECTIVE_RULE_002_ZERO_VARIANCE",
+      "statement": "Collective intelligence synthesis must contain zero non-deterministic floating values or ungrounded assertions."
+    }
+  ],
+  "primitives": [
+    {
+      "description": "Contract-governed multi-agent claim deduction and reasoning trees.",
+      "name": "shared_deterministic_reasoning",
+      "primitive_id": "COLLECTIVE_001_REASONING"
+    },
+    {
+      "description": "Unanimous CEAP-D4 cryptographic voting ring consensus formation.",
+      "name": "deterministic_consensus_formation",
+      "primitive_id": "COLLECTIVE_002_CONSENSUS"
+    },
+    {
+      "description": "Canonical state and transformation cost optimization.",
+      "name": "deterministic_collective_optimization",
+      "primitive_id": "COLLECTIVE_003_OPTIMIZATION"
+    },
+    {
+      "description": "Unified multi-agent evidence synthesis and projection recomputation.",
+      "name": "deterministic_evidence_and_projection_synthesis",
+      "primitive_id": "COLLECTIVE_004_SYNTHESIS"
+    }
+  ],
+  "protocol_name": "CEAP_D4_MultiAgent_CollectiveIntelligence_Protocol",
+  "version": "v1.6"
+}

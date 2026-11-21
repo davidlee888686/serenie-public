@@ -1,0 +1,60 @@
+{
+  "invariants": [
+    {
+      "id": "INV-SYS-001",
+      "file": "engineering_os/specification/14_SYSTEM_INVARIANTS.md"
+    },
+    {
+      "id": "INV-SYS-004",
+      "file": "engineering_os/specification/14_SYSTEM_INVARIANTS.md"
+    },
+    {
+      "id": "INV-SYS-005",
+      "file": "engineering_os/specification/14_SYSTEM_INVARIANTS.md"
+    }
+  ],
+  "proof_obligations": [],
+  "conformance_requirements": [],
+  "adrs": [
+    {
+      "id": "ADR-0001",
+      "file": "engineering_os/governance/decisions/ADR_INDEX.md"
+    },
+    {
+      "id": "ADR-0002",
+      "file": "engineering_os/governance/decisions/ADR_INDEX.md"
+    },
+    {
+      "id": "ADR-0003",
+      "file": "engineering_os/governance/decisions/ADR_INDEX.md"
+    },
+    {
+      "id": "ADR-0004",
+      "file": "engineering_os/governance/decisions/ADR_INDEX.md"
+    },
+    {
+      "id": "ADR-0005",
+      "file": "engineering_os/governance/decisions/ADR_INDEX.md"
+    },
+    {
+      "id": "ADR-0006",
+      "file": "engineering_os/governance/decisions/ADR_INDEX.md"
+    },
+    {
+      "id": "ADR-0007",
+      "file": "engineering_os/governance/decisions/ADR_INDEX.md"
+    },
+    {
+      "id": "ADR-0008",
+      "file": "engineering_os/governance/decisions/ADR_INDEX.md"
+    },
+    {
+      "id": "ADR-0009",
+      "file": "engineering_os/governance/decisions/ADR_INDEX.md"
+    },
+    {
+      "id": "ADR-0010",
+      "file": "engineering_os/governance/decisions/ADR_INDEX.md"
+    }
+  ]
+}

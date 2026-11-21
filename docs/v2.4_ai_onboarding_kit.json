@@ -1,0 +1,7 @@
+{
+  "protocol_guide": "Must follow 2-phase commit and deterministic negotiation priority.",
+  "invariant_guide": "Strict compliance with INV_CAN_001, INV_DET_001, INV_JOURNAL_001, INV_FED_001.",
+  "error_handling_guide": "Catch SerenieError and trigger automatic self-healing checkpoint recovery.",
+  "recovery_guide": "Invoke rollback_to_checkpoint() upon contract precondition breach.",
+  "verification_guide": "Run python3 run_tests.py to verify 100% compliance."
+}

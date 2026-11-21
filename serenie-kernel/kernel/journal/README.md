@@ -1,0 +1,3 @@
+# Journal
+
+Track directory initialized.

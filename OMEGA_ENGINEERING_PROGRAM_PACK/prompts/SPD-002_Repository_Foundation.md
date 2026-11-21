@@ -1,0 +1,1 @@
+Create repository foundation, CI, lint, docs, tests. STOP.

@@ -1,0 +1,29 @@
+{
+  "ceap_level": "D_4",
+  "reasoning_vectors": [
+    {
+      "ceap_level": "D_4",
+      "deduction_steps": [
+        {
+          "deduction_cid": "f4b43b33b5f94e36d798a9166edc782ec4a6bde27b3c133693d495164425eadd",
+          "derived_from_claim_id": "claim_0",
+          "fact_key": "fact_000",
+          "status": "DEDUTION_VERIFIED_CEAP_D4",
+          "step_index": 0
+        },
+        {
+          "deduction_cid": "21cbb6ed13e64ac6e16301c7c3801d09a5d87329f5e5318f0d9dd6a2c7e38a9f",
+          "derived_from_claim_id": "claim_1",
+          "fact_key": "fact_001",
+          "status": "DEDUTION_VERIFIED_CEAP_D4",
+          "step_index": 1
+        }
+      ],
+      "reasoning_tree_id": "36fee89b29dac26c4ef91c8099cb958f458359dbfbd8dcd68a9ac05446853828",
+      "status": "REASONING_TREE_BUILT",
+      "total_deduction_steps": 2
+    }
+  ],
+  "total_reasoning_trees": 1,
+  "version": "v1.6"
+}

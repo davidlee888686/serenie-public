@@ -1,0 +1,38 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "cognitive_surfaces": [
+    "Deterministic State Deduction Surface",
+    "Invariant Compliance Verification Surface",
+    "Zero-Variance Multi-Agent Decision Surface"
+  ],
+  "federated_contracts": [
+    {
+      "bound_signature_scheme": "DILITHIUM5",
+      "bound_zkp_envelope": "PLONK_PROOF_ENVELOPE",
+      "cognitive_role": "PRIMARY_DEDUCTIVE_REASONER",
+      "contract_id": "CTR_INT_ALPHA_001",
+      "domain": "cluster_alpha.serenie.org"
+    },
+    {
+      "bound_signature_scheme": "FALCON1024",
+      "bound_zkp_envelope": "STARK_PROOF_ENVELOPE",
+      "cognitive_role": "SOVEREIGN_INFERENCE_VALIDATOR",
+      "contract_id": "CTR_INT_BETA_001",
+      "domain": "cluster_beta.serenie.org"
+    },
+    {
+      "bound_signature_scheme": "DILITHIUM5",
+      "bound_zkp_envelope": "PLONK_STARK_HYBRID_ENVELOPE",
+      "cognitive_role": "COLLECTIVE_SYNTHESIS_ORCHESTRATOR",
+      "contract_id": "CTR_INT_GAMMA_001",
+      "domain": "ecosystem_gamma.serenie.net"
+    }
+  ],
+  "foundations_bound": "v1.x_Substrate_and_v2.0_v2.1_Ecosystem",
+  "intelligence_determinism": "ZERO_VARIANCE_CEAP_D4_PLUS",
+  "phase": "V2-2.01",
+  "spec_cid": "b311009618bcb8abb16306cced79d3daa54c1f246f7dc7aaf49054d371407b43",
+  "title": "v2.2 Deterministic Intelligence Specification",
+  "total_federated_contracts": 3,
+  "version": "v2.2"
+}

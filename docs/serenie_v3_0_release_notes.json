@@ -1,0 +1,27 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "highlights": [
+    "Civilization-Scale Stratum Architecture (Strata 001-004)",
+    "Galactic Namespace Routing & Inter-Ecosystem Federation",
+    "Role-Aware Autonomous Personality Taxonomy & Drift Bounds (+/-0.05 max drift)",
+    "Post-Quantum Signatures (Dilithium5 / Falcon-1024) & Hybrid ZKP Envelopes (PLONK / STARK)",
+    "100% Byte-Exact Multi-Run Reproducibility across 100 Independent Runs"
+  ],
+  "major_release_artifacts": [
+    "serenie_v3_0_frozen_substrate_manifest.json",
+    "serenie_v3_0_final_seal_certificate.json",
+    "serenie_v3_0_final_freeze_record.json",
+    "serenie_v3_0_unified_output_bundle.json",
+    "serenie_ai_bundle_v3_0.json",
+    "serenie_v3_0_whitepaper.json",
+    "serenie_v3_0_major_release_verification.json",
+    "serenie_v3_0_completion_record.json",
+    "serenie_v3_0_operational_certification.json",
+    "serenie_v3_0_release_manifest.json"
+  ],
+  "notes_cid": "1a8662df439581997970950c73d06f92ee6f5fe528aa0efe5a798d921d29b609",
+  "release_verdict": "SERENIE_V3_0_MAJOR_RELEASE_READY_FOR_EXTERNAL_DISTRIBUTION",
+  "semver": "3.0.0",
+  "title": "Serenie Substrate v3.0 Major Release Notes",
+  "version": "v3.0"
+}

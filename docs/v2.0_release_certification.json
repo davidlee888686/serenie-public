@@ -1,0 +1,35 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "certification_hash": "bbfc0f8712405efe405a4681659a1e284a02b7fda9bb9f0778d539c39437394a",
+  "certification_verdict": "VERIFIED_OPERATIONAL_RELEASE_V2_0",
+  "foundation_artifact_hashes": {
+    "v2.0_adaptive_runtime_spec": "d08d753f87d348bfaf28550f5ce49a2488180b77a213bd5485a5c64df5b8fec0",
+    "v2.0_conformance_dry_run_results": "5d19d3d1d8517e708db7084212900771c06303648a7dccd28975598bffd808d1",
+    "v2.0_conformance_evidence_bundle": "54cd515ff4b4eb75c144818809bfc64cc0c21b6eda81e72ad6f64ed8e0a6c537",
+    "v2.0_conformance_suite_design": "9117ea011209b0d3431692af1546e839b3ba3845544ba94eb4f457eb4c3e9089",
+    "v2.0_deployment_plan": "2b0dfcb23ca2ae267f8f52d1d4473c1d2dd9c50e43244b620357c8f48ce71d06",
+    "v2.0_federated_cluster_semantics": "e37dfd032820587075bd3e3b51ac4a54c3d739f161eeaac8d844378383e07d54",
+    "v2.0_federated_identity_spec": "597afac0b8a5428639f8f49b22ab073b8565de2f1eb5bc0a0601da02ada74435",
+    "v2.0_kernel_evolution_plan": "70e20522d3c0bab3ac243a88f8e459c294156904d072a9d343d62ee77f8da58f",
+    "v2.0_kernel_implementation_plan": "aa51cfdfe281019b83fb81d8f35624e557f8e34aad416f08cfbab1a821c4d74e",
+    "v2.0_kernel_prototype_status": "1af457635714bb409d86efdae7da8057ba067fd91ecb07ea694355a219a8f88a",
+    "v2.0_multi_cluster_bundle": "a2cec27937333a6afc6f10a6a50ce4efbee4b8b3482f3070797c35501a4c45e8",
+    "v2.0_multi_cluster_execution_spec": "34829d200afe1d1b016ec8382f5b18c8288c376cad756c67d9784e8b7159a329",
+    "v2.0_operational_runbook": "b21e3e60917c318038d5c9fe7855902f3a05078916fb092e8ece14312cc2cad2",
+    "v2.0_post_quantum_identity": "de9e4f5ff5888eef5fb9cabd01727acd1dd50b864f124c1d73bbb054b3ead98e",
+    "v2.0_release_integrity_report": "efc3039da38360b7b23f59ec331dc5b2c120900889e50a933ff9eb5881507a33",
+    "v2.0_release_manifest": "5354bc58c9ef4f4ce5b130e93e7bfd958ab246c23ba1560728010ddcc67bc99a",
+    "v2.0_release_readiness_report": "767c718168f28a4e37c5a8caeba86037242c1edddbdd318ac6536db8b34ba3f9",
+    "v2.0_zkp_envelope": "4163c9852f4873c1d1d140e7223224d803d542c6655f8ba7810f76a04bd1e888"
+  },
+  "multi_run_reproducibility": "100_PERCENT_BYTE_FOR_BYTE_VERIFIED",
+  "phase": "V2-10",
+  "release_artifacts": {
+    "release_archive_sha256": "74cf1e659bf5f4fe8aec61b8047cf1cba9904f375ed0d4ac9e3ec803f3a2e1b3",
+    "release_manifest_hash": "e7c0d19ef835d2a4584f9bf481b492d2146847fae300ebcdc64a866ac12d449f"
+  },
+  "release_lifecycle_state": "CLOSED_AND_IMMUTABLE_V2_0",
+  "title": "Serenie Substrate v2.0 Final Operational Release Certification",
+  "v1_x_substrate_status": "STRICT_UNTOUCHED_AND_FROZEN",
+  "version": "v2.0"
+}

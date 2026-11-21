@@ -1,0 +1,53 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "contract_propagation_rules": [
+    {
+      "action": "BROADCAST_ALL_FEDERATED_DOMAINS",
+      "condition": "QUORUM_2_3_SUPERMAJORITY",
+      "name": "Deterministic Supermajority Policy Broadcast",
+      "rule_id": "PROP_GOV_001"
+    },
+    {
+      "action": "APPEND_GOVERNANCE_JOURNAL_BLOCK",
+      "condition": "INV_GOV_001_VERIFIED",
+      "name": "ZKP Invariant Audit Before Egress",
+      "rule_id": "PROP_GOV_002"
+    }
+  ],
+  "decision_matrices": {
+    "arbitration_procedure": "DETERMINISTIC_CHECKPOINT_ROLLBACK",
+    "quorum_threshold": 0.6667,
+    "voting_weights": {
+      "cluster_alpha.serenie.org": 1.0,
+      "cluster_beta.serenie.org": 1.0,
+      "ecosystem_gamma.serenie.net": 1.0
+    }
+  },
+  "deterministic_workflows": [
+    "PROPOSAL_EMISSION",
+    "CROSS_CLUSTER_QUORUM_VOTE",
+    "ZKP_INVARIANT_VALIDATION",
+    "POLICY_STATE_COMMITMENT"
+  ],
+  "global_governance_invariants": {
+    "INV_GOV_001": {
+      "ceap_level": "D_4_PLUS",
+      "description": "Ecosystem governance decisions must maintain byte-identical canonical state across all participating clusters.",
+      "name": "Global Governance Invariant Uniformity"
+    },
+    "INV_GOV_002": {
+      "ceap_level": "D_4_PLUS",
+      "description": "Every ecosystem contract propagation must be backed by a verified 2/3 cryptographic quorum signature and ZKP envelope.",
+      "name": "Cryptographic Quorum and Contract Propagation"
+    },
+    "INV_GOV_003": {
+      "ceap_level": "D_4_PLUS",
+      "description": "State discrepancies across clusters trigger automatic deterministic rollback to safe consensus checkpoints.",
+      "name": "Deterministic Arbitration and Recovery"
+    }
+  },
+  "phase": "PHASE_1_GOVERNANCE",
+  "protocol_cid": "3d2b9c09e62b5cb8e3b7b586ef8a8f49637ce24ccdfe66808a466b319d1dfa4d",
+  "title": "Serenie Ecosystem Governance Protocol Specification",
+  "version": "v2.5_omega"
+}

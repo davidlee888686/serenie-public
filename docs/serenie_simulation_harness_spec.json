@@ -1,0 +1,14 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "harness_cid": "b5abb8e3fbb53fcf9eb36d4be49f83528cebea44f0342be2ad8925be142c00f0",
+  "harness_determinism": "100_PERCENT_BYTE_EXACT_SIMULATION_REPLAY",
+  "phase": "PHASE_7_SIMULATION",
+  "subsystems": [
+    "Governance Simulation Engine",
+    "Personality Interaction Simulation Engine",
+    "Federation Propagation Simulation Engine",
+    "Evidence and Cryptographic Replay Subsystem"
+  ],
+  "title": "Autonomous Ecosystem Simulation Harness Specification",
+  "version": "v2.5_omega"
+}

@@ -1,0 +1,33 @@
+{
+  "bound_foundations": {
+    "intel_spec_cid": "b311009618bcb8abb16306cced79d3daa54c1f246f7dc7aaf49054d371407b43",
+    "mesh_spec_cid": "8287f8b6f93e17c32138990ab0ad9c1d06e490c4572d0234515c906b5cb9f96b"
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "engine_determinism": "ZERO_VARIANCE_REASONING_ENGINE_STATE",
+  "engine_models": [
+    {
+      "domain": "cluster_alpha.serenie.org",
+      "engine_mode": "PRIMARY_DEDUCTIVE_ENGINE",
+      "inference_capability": "PLONK_ZKP_CEAP_D4_REASONING",
+      "signature_scheme": "DILITHIUM5"
+    },
+    {
+      "domain": "cluster_beta.serenie.org",
+      "engine_mode": "SOVEREIGN_VALIDATION_ENGINE",
+      "inference_capability": "STARK_ZKP_CEAP_D4_REASONING",
+      "signature_scheme": "FALCON1024"
+    },
+    {
+      "domain": "ecosystem_gamma.serenie.net",
+      "engine_mode": "COLLECTIVE_SYNTHESIS_ENGINE",
+      "inference_capability": "HYBRID_PLONK_STARK_REASONING",
+      "signature_scheme": "DILITHIUM5"
+    }
+  ],
+  "phase": "V2-2.03",
+  "spec_cid": "58fb4c4604cd0c2e89b2f02fc5d2b4117dcd646c53ed6cc1402ebb4c8406ff46",
+  "title": "v2.2 Deterministic Federated Reasoning Engine Specification",
+  "total_engine_models": 3,
+  "version": "v2.2"
+}

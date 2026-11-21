@@ -1,0 +1,29 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "doc_hash": "7c132a1db83060d242be3f4414e30ec8c294e6f7dba82012e77c741ef3314935",
+  "invariants": [
+    {
+      "id": "FED3_INV_001",
+      "name": "Cross-Civilization Route Determinism",
+      "statement": "Cross-civilization routing vectors must produce byte-exact identical next-hop decisions."
+    },
+    {
+      "id": "FED3_INV_002",
+      "name": "Long-Range Continuity Assurance",
+      "statement": "Cross-civilization consensus must preserve unbroken journal Merkle-DAG hash chains."
+    },
+    {
+      "id": "FED3_INV_003",
+      "name": "Multi-Ecosystem Consensus Convergence",
+      "statement": "Consensus rounds across multi-civilization nodes must converge deterministically."
+    },
+    {
+      "id": "FED3_INV_004",
+      "name": "Post-Quantum Multi-Civilization Signatures",
+      "statement": "All cross-civilization messages must be signed by Dilithium5 or Falcon-1024 handles."
+    }
+  ],
+  "phase": "PHASE_3_FEDERATION_INVARIANTS",
+  "title": "v3.0 Federation Invariants Specification",
+  "version": "v3.0"
+}

@@ -1,0 +1,39 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "contract_enforcement": "CEAP_D4_PLUS_STRICT_SERVICE_CONTRACTS",
+  "contracts_cid": "bb39719b74dbf6b18b6e114d867f50625ce8cc21f77c5de6806316d387c20edd",
+  "phase": "V2-2.05",
+  "service_contracts": [
+    {
+      "contract_id": "CTR_INT_SVC_001_QUERY_RESPONSE",
+      "enforcement": "CEAP_D4_PLUS_STRICT",
+      "name": "Insight Query and Response Surface Contract",
+      "postcondition": "Returns deterministic insight response payload.",
+      "precondition": "Request payload MUST specify valid CEAP-D4+ query statement CID."
+    },
+    {
+      "contract_id": "CTR_INT_SVC_002_ZKP_REQUEST",
+      "enforcement": "CEAP_D4_PLUS_STRICT",
+      "name": "ZKP-Anchored Intelligence Request Contract",
+      "postcondition": "Validates request statement without exposing raw query parameters.",
+      "precondition": "Request MUST be encapsulated in PLONK/STARK proof envelope."
+    },
+    {
+      "contract_id": "CTR_INT_SVC_003_PQ_RESPONSE_CHAIN",
+      "enforcement": "CEAP_D4_PLUS_STRICT",
+      "name": "PQ-Signed Response Chain Contract",
+      "postcondition": "Appends response block hash to cross-cluster service journal.",
+      "precondition": "Response payload MUST contain Dilithium5 / Falcon-1024 signature anchor."
+    },
+    {
+      "contract_id": "CTR_INT_SVC_004_OUTPUT_RENDERING",
+      "enforcement": "CEAP_D4_PLUS_STRICT",
+      "name": "Invariant-Verified Output Rendering Contract",
+      "postcondition": "Emits byte-exact JSON projection artifact with kernel evidence.",
+      "precondition": "Rendered response MUST satisfy all CEAP-D4+ kernel invariants."
+    }
+  ],
+  "title": "v2.2 Intelligence Service Contracts Specification",
+  "total_service_contracts": 4,
+  "version": "v2.2"
+}

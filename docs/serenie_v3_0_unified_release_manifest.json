@@ -1,0 +1,24 @@
+{
+  "artifact_hashes": {
+    "serenie_ai_bundle_v3_0.json": "adda54879baadb9b15c0ddff1f3bf9ce3f62b655873d18c53a9f7553308af9e6",
+    "serenie_v3.0_civilization_model_spec.json": "03ff5bd86227cada6ddf5d08dbbd58a65e3615107ee2d49e959c820867b24fb8",
+    "serenie_v3.0_extended_semantics.json": "696b7747168e2483da4d1553313f291d3a3439144089f893b2462caf655f6b83",
+    "serenie_v3.0_federation_invariants.json": "7c132a1db83060d242be3f4414e30ec8c294e6f7dba82012e77c741ef3314935",
+    "serenie_v3.0_invariants_spec.json": "c55172e39280f54fd433a48c34610c9418234d7233cc9ca22c65593831808f6a",
+    "serenie_v3.0_personality_taxonomy.json": "ea29bf5d3a14ddfdfb45da465bb696cace43b8d04469e6e2f996f4926fbaa446",
+    "serenie_v3.0_simulation_harness_spec.json": "d807fdd6096e8650a2730a0b90711fb1b2f16836e8402cf82fb2c2312984793f",
+    "serenie_v3.0_simulation_scenario_pack.json": "2263cf5f29616957d76e90e1873a9b343221fa2890cadc1747fa5f0fd144097c",
+    "serenie_v3.0_whitepaper.json": "ac71d6efe4dc6a43d6128314d435f63abff8514fc22400dd0048f319e560dc1b",
+    "serenie_v3_0_completion_record.json": "694cc0cbf5fb849face57ba8967d593c42f5e7a88f79c67a45c9bf073ead6c1e",
+    "serenie_v3_0_operational_certification.json": "c46517ea0b10d6e622b7d255958c87dcb488c53d0fc1b5c125bbc410fc77065a",
+    "v3.0_civilization_consensus_vectors.json": "3ef18377d2d37410075a302c118f4fb224783892f11430bef1853a36831e9f55",
+    "v3.0_civilization_continuity_vectors.json": "01a41b0307a3366fb22385e2263951007ad17a6aaec8776282f603730b0642b7",
+    "v3.0_civilization_propagation_vectors.json": "f56f841d43a3a5ed607e8d54b627af3039fa90b2c17353da081a7744220c8646",
+    "v3.0_civilization_routing_vectors.json": "2bd4ee77310bf971fa2a19c83e3b6c0c6b856166f3b76a97a7c632372a7d7371"
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "manifest_hash": "01f6d7b5609be64e0b30257216a6c263897265d9334e991e9aee7322b4f36709",
+  "manifest_id": "SERENIE_V3_0_UNIFIED_RELEASE_MANIFEST",
+  "release_state": "CIVILIZATION_SCALE_EVOLUTION_RELEASED",
+  "version": "v3.0"
+}

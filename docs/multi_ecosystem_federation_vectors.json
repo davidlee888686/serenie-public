@@ -1,0 +1,39 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "federation_consensus_vectors": [
+    {
+      "consensus_id": "FED_C_001",
+      "invariants": [
+        "INV_FED_001",
+        "INV_FED_002",
+        "INV_FED_003"
+      ],
+      "replay_verified": true
+    }
+  ],
+  "federation_continuity_vectors": [
+    {
+      "index": 0,
+      "journal_block_hash": "e7aff93b7265fa0871a1326cc929638c0579279ba08c24e6a7ccd060618cdab0",
+      "prev_hash": "GENESIS_FED_BLOCK_000"
+    }
+  ],
+  "federation_propagation_vectors": [
+    {
+      "propagation_id": "fed_prop_e7aff93b7265fa0871a1326cc929638c",
+      "status": "PROPAGATED_AND_JOURNALED",
+      "zkp_verified": true
+    }
+  ],
+  "federation_routing_vectors": [
+    {
+      "propagation_id": "fed_prop_e7aff93b7265fa0871a1326cc929638c",
+      "route_id": "FED_R_001",
+      "target": "ecosystem_gamma.serenie.net"
+    }
+  ],
+  "phase": "PHASE_3_FEDERATION",
+  "title": "Serenie Ecosystem Multi-Ecosystem Federation Vectors",
+  "vectors_cid": "cfcb9bb4ac9975db67d93a12c124a846ecdc48e481d015dfc428b95a16fc1963",
+  "version": "v2.5_omega"
+}

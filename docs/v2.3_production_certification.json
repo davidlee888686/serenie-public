@@ -1,0 +1,23 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "certification_cid": "2593420adaa7a471adcae0920a5380e116d2de1c16ae993e428abe842c377b8b",
+  "evaluation_verdict": "VERIFIED_PRODUCTION_READY_V2_3",
+  "input_foundations": {
+    "unified_evidence_bundle_cid": "6167762da32df55253778e6cd812e31b256b5794e6a7a88f2634e00534ab47d3",
+    "unified_release_manifest_cid": "9be4b696a3c23d8d6b1569e9c1056502db7e94bb3ea61f6ab68915af81ebd30b"
+  },
+  "lifecycle_state": "PRODUCTION_READY_V2_3",
+  "substrate_preservation_verification": {
+    "v1_x_baseline": "FROZEN_AND_UNTOUCHED",
+    "v2_0_foundation": "CLOSED_AND_IMMUTABLE_V2_0",
+    "v2_1_ecosystem": "SEALED_AND_PRESERVED",
+    "v2_2_intelligence": "SEALED_AND_PRESERVED"
+  },
+  "title": "Serenie Substrate v2.3 Production-Readiness Certification",
+  "verification_reports": {
+    "determinism_report_cid": "2f026f9b06f1ce50a04b8bd85a88d4fcaf4c8812bc32c4ca3f5fbf79fa1eba9d",
+    "invariant_report_cid": "b1767585ccd2303feb12118e0931a337152aedafb54df748b9c869e67b4f615d",
+    "reproducibility_report_cid": "720112f38eb1814bc36ccb0a83791cb9df449832ff5d3759f4bba7b0ed34c0c7"
+  },
+  "version": "v2.3"
+}

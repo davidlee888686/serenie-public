@@ -1,0 +1,27 @@
+{
+  "ceap_level": "D_4",
+  "shared_evidence_vectors": [
+    {
+      "ceap_level": "D_4",
+      "claims": [
+        {
+          "agent_id": "agent_python_substrate_v1.3",
+          "claim_key": "python_transform_ok",
+          "verdict": "VERIFIED"
+        },
+        {
+          "agent_id": "agent_rust_substrate_v1.3",
+          "claim_key": "rust_equivalence_ok",
+          "verdict": "VERIFIED"
+        }
+      ],
+      "claims_count": 2,
+      "evidence_id": "ca8c592de02916508111a634e7aedd2292f48f0a0a846422196aaf79683ec911",
+      "shared_state_cid": "f33847b1fd2e7f84c493eac2665a1d20914552005a8f12c98c0793d0ec2286aa",
+      "status": "JOINT_EVIDENCE_VERIFIED_CEAP_D4",
+      "workflow_id": "f0ee1fcb258253d8c6613b42e1d7838ba5e07c9ff1cb3e37099f064e6d513118"
+    }
+  ],
+  "total_joint_evidence_records": 1,
+  "version": "v1.5"
+}

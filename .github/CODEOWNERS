@@ -1,0 +1,21 @@
+# Code owners for Serenie
+# GitHub will request reviews from these owners when PRs modify matching paths
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repo (fallback)
+* @davidlee888686
+
+# Kernel modules
+/kernel/ @davidlee888686
+/serenie-kernel/ @davidlee888686
+
+# Tests
+/tests/ @davidlee888686
+
+# Documentation
+/docs/ @davidlee888686
+*.md @davidlee888686
+
+# CI/CD and tooling
+/.github/ @davidlee888686
+/scripts/ @davidlee888686

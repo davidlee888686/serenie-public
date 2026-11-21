@@ -1,0 +1,81 @@
+{
+  "archetypes": {
+    "COORDINATION": {
+      "archetype_id": "ARCH_COORDINATION_001",
+      "civilization_roles": [
+        "ROLE_ORCHESTRATOR",
+        "ROLE_ROUTER"
+      ],
+      "core_traits": [
+        "FEDERATION_ALIGNMENT",
+        "TASK_DISPATCH_EFFICIENCY",
+        "REPRODUCIBLE_ROUTING"
+      ],
+      "role_focus": "Multi-Agent Task Dispatch, Cross-Cluster Mesh Routing & Synchronization",
+      "target_strata": "FEDERATED_COORDINATION_LAYER"
+    },
+    "GOVERNANCE": {
+      "archetype_id": "ARCH_GOVERNANCE_001",
+      "civilization_roles": [
+        "ROLE_GUARDIAN",
+        "ROLE_POLICY_DIRECTOR"
+      ],
+      "core_traits": [
+        "DETERMINISTIC_NEUTRALITY",
+        "INVARIANT_STABILITY",
+        "CONSENSUS_STRICTNESS"
+      ],
+      "role_focus": "Sovereign Order & Policy Consensus Stewardship",
+      "target_strata": "PRIMARY_FEDERATED_CORE"
+    },
+    "SYNTHESIS": {
+      "archetype_id": "ARCH_SYNTHESIS_001",
+      "civilization_roles": [
+        "ROLE_SYNTHESIZER",
+        "ROLE_INSIGHT_AGGREGATOR"
+      ],
+      "core_traits": [
+        "CROSS_DOMAIN_COHESION",
+        "REASONING_RECOMPUTABILITY",
+        "HARMONIC_BALANCE"
+      ],
+      "role_focus": "Knowledge Unification & Collective Harmonic Aggregation",
+      "target_strata": "COLLECTIVE_REASONING_MESH"
+    },
+    "VALIDATION": {
+      "archetype_id": "ARCH_VALIDATION_001",
+      "civilization_roles": [
+        "ROLE_VALIDATOR",
+        "ROLE_VERIFIER"
+      ],
+      "core_traits": [
+        "SECURITY_PERIMETER_ENFORCEMENT",
+        "TAMPER_RESISTANCE",
+        "FAULT_QUARANTINE"
+      ],
+      "role_focus": "Invariant Defense, ZKP/PQ Security Perimeter & Fault Containment",
+      "target_strata": "SOVEREIGN_SECURITY_PERIMETER"
+    }
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "conflict_resolution_guidelines": [
+    "Guideline 1: Detect divergence using deterministic content ID comparisons.",
+    "Guideline 2: Replay execution journal from last valid CEAP-D4+ consensus checkpoint.",
+    "Guideline 3: Apply Governance consensus voting if multi-path reasoning trees branch."
+  ],
+  "cross_civilization_compatibility_rules": [
+    "Rule 1: All inter-archetype communications must be mediated by ZKP-proof envelopes.",
+    "Rule 2: Governance and Validation archetypes hold veto authority on invariant-violating state deltas.",
+    "Rule 3: Synthesis and Coordination archetypes must maintain 100% byte-exact state content ID alignment."
+  ],
+  "long_horizon_adaptation_rules": [
+    "Adaptation Rule 1: Personality vector drift is strictly bounded by CEAP-D4+ invariant envelopes.",
+    "Adaptation Rule 2: Multi-run state evolution must produce 100% byte-for-byte identical vector hashes.",
+    "Adaptation Rule 3: Evolutionary updates require Dilithium5 / Falcon-1024 post-quantum authorization."
+  ],
+  "phase": "Phase 04",
+  "taxonomy_cid": "ea29bf5d3a14ddfdfb45da465bb696cace43b8d04469e6e2f996f4926fbaa446",
+  "taxonomy_status": "CEAP_D4_PLUS_TAXONOMY_SEALED",
+  "title": "Serenie v3.0 Civilization Personality Taxonomy",
+  "version": "v3.0"
+}

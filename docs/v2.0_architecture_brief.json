@@ -1,0 +1,53 @@
+{
+  "brief_hash": "36506b4c93396df9fe755b0abbda1479bc61d654958443863a7c44da911e110d",
+  "ceap_target_level": "D_4_PLUS_POST_QUANTUM",
+  "foundation_substrate": "Serenie v1.x (v1.0-v1.7) Frozen Certified Substrate",
+  "new_invariants": [
+    {
+      "description": "Federated state synchronization across clusters yields byte-exact identical state content IDs.",
+      "invariant_id": "INV_FED_001",
+      "name": "Cross-Cluster Federated Idempotence"
+    },
+    {
+      "description": "Evidence records verify claim validity without exposing raw state payloads.",
+      "invariant_id": "INV_ZKP_001",
+      "name": "Zero-Knowledge Evidence Verification"
+    },
+    {
+      "description": "Dynamically adjusted contract constraints never weaken baseline CEAP-D4 preconditions.",
+      "invariant_id": "INV_ADAPT_001",
+      "name": "Adaptive Contract Monotonicity"
+    }
+  ],
+  "new_kernel_modules": [
+    {
+      "description": "Multi-cluster state syncing and federated consensus.",
+      "module": "serenie.kernel.federation"
+    },
+    {
+      "description": "Zero-knowledge proof generation and verification for privacy-preserving claims.",
+      "module": "serenie.kernel.zk_proofs"
+    },
+    {
+      "description": "Self-tuning contract invariants reacting to runtime performance metrics.",
+      "module": "serenie.kernel.adaptive_contracts"
+    },
+    {
+      "description": "Post-quantum cryptographic identity generation (SHA3-512 / Dilithium).",
+      "module": "serenie.kernel.quantum_identity"
+    }
+  ],
+  "new_multi_agent_behaviors": [
+    "Swarm intelligence consensus formation",
+    "Self-organizing mesh network agent topology",
+    "Zero-trust cross-cluster multi-agent orchestration"
+  ],
+  "new_runtime_semantics": [
+    "Zero-latency streaming state transformations",
+    "Concurrent multi-branch execution with speculative state checkpoints",
+    "Asynchronous parallel execution journal replay and verification"
+  ],
+  "title": "Serenie Substrate v2.0 High-Level Architecture Brief",
+  "v1_x_baseline_preservation": "STRICT_IMMUTABLE_AND_FROZEN",
+  "version": "v2.0-Planning"
+}

@@ -1,0 +1,39 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "phase": "V2-1.09",
+  "recovery_rules": [
+    {
+      "isolation_action": "FREEZE_DIVERGENT_STEP_AND_ISOLATE_NODE",
+      "restoration_procedure": "Roll back to last valid consensus checkpoint and replay canonical blocks.",
+      "rule_id": "RULE_REC_001_JOURNAL_REPAIR",
+      "target_fault": "JOURNAL_HASH_CHAIN_DIVERGENCE",
+      "verification": "UNBROKEN_SHA256_HASH_CHAIN_EQUALITY"
+    },
+    {
+      "isolation_action": "QUARANTINE_UNVERIFIED_ENVELOPE_CID",
+      "restoration_procedure": "Re-emit canonical envelope anchored by Dilithium5 / Falcon-1024 PQ signature.",
+      "rule_id": "RULE_REC_002_ENVELOPE_REPROPAGATION",
+      "target_fault": "MISSING_OR_CORRUPTED_FEDERATION_ENVELOPE",
+      "verification": "ZKP_ENVELOPE_PROOF_VERIFICATION_PASS"
+    },
+    {
+      "isolation_action": "FLAG_TELEMETRY_DESYNC_ALERT",
+      "restoration_procedure": "Resynchronize ZKP/PQ verification telemetry signals against live journal blocks.",
+      "rule_id": "RULE_REC_003_TELEMETRY_REALIGNMENT",
+      "target_fault": "TELEMETRY_SIGNAL_MISALIGNMENT",
+      "verification": "TELEMETRY_SIGNAL_HEALTHY_CONFIRMATION"
+    },
+    {
+      "isolation_action": "DIVERT_TRAFFIC_TO_QUARANTINE_POLICY_POL_ROUTE_004",
+      "restoration_procedure": "Re-apply verified onboarding certificate and update routing policy table.",
+      "rule_id": "RULE_REC_004_STATE_CORRECTION",
+      "target_fault": "ROUTING_OR_ONBOARDING_STATE_DESYNC",
+      "verification": "ACTIVE_ROUTING_TABLE_CONSENSUS_MATCH"
+    }
+  ],
+  "rule_enforcement": "CEAP_D4_PLUS_STRICT_RECOVERY",
+  "rules_cid": "e42b132cf349b077790442b269aeeb645649ba8ef63e2f50df0ddc158245ab9e",
+  "title": "v2.1 Deterministic Recovery Rules Specification",
+  "total_recovery_rules": 4,
+  "version": "v2.1"
+}

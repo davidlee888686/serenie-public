@@ -1,0 +1,42 @@
+{
+  "autonomy_rules": [
+    {
+      "rule_id": "AUTO_RULE_001_D4_SELF_GOVERNANCE",
+      "statement": "Autonomous decision cycles must execute without human intervention while preserving CEAP-D4 state invariants."
+    },
+    {
+      "rule_id": "AUTO_RULE_002_IMMUTABLE_EVOLUTION",
+      "statement": "State evolutions must append to the unbroken cryptographic journal hash chain."
+    }
+  ],
+  "ceap_operating_level": "D_4",
+  "primitives": [
+    {
+      "description": "Self-governing contract-validated decision cycles.",
+      "name": "autonomous_deterministic_decision_loops",
+      "primitive_id": "AUTO_001_DECISION_LOOP"
+    },
+    {
+      "description": "Content-hash tied task routing to candidate agents.",
+      "name": "autonomous_deterministic_task_routing",
+      "primitive_id": "AUTO_002_TASK_ROUTING"
+    },
+    {
+      "description": "Monotonic step index canonical state evolution.",
+      "name": "autonomous_canonical_state_evolution",
+      "primitive_id": "AUTO_003_STATE_EVOLUTION"
+    },
+    {
+      "description": "Self-verifying evidence record generation for state transitions.",
+      "name": "autonomous_evidence_generation",
+      "primitive_id": "AUTO_004_EVIDENCE"
+    },
+    {
+      "description": "Live projection updates and pure recomputation.",
+      "name": "autonomous_projection_updates",
+      "primitive_id": "AUTO_005_PROJECTION"
+    }
+  ],
+  "protocol_name": "CEAP_D4_MultiAgent_CollectiveAutonomy_Protocol",
+  "version": "v1.7"
+}

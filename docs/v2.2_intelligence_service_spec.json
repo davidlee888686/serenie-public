@@ -1,0 +1,33 @@
+{
+  "bound_foundations": {
+    "intel_spec_cid": "b311009618bcb8abb16306cced79d3daa54c1f246f7dc7aaf49054d371407b43",
+    "synthesis_spec_cid": "6eca0418e328ed4ba670b9f7a92f51e03293d2c7c9281cb20bd5ec1a50866f9f"
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "phase": "V2-2.05",
+  "service_determinism": "ZERO_VARIANCE_SERVICE_RESPONSE_ENVELOPES",
+  "service_interfaces": [
+    {
+      "domain": "cluster_alpha.serenie.org",
+      "endpoint_path": "/v2.2/intelligence/query",
+      "signature_anchor": "DILITHIUM5",
+      "supported_request_envelope": "PLONK_PROOF_ENVELOPE"
+    },
+    {
+      "domain": "cluster_beta.serenie.org",
+      "endpoint_path": "/v2.2/intelligence/validate",
+      "signature_anchor": "FALCON1024",
+      "supported_request_envelope": "STARK_PROOF_ENVELOPE"
+    },
+    {
+      "domain": "ecosystem_gamma.serenie.net",
+      "endpoint_path": "/v2.2/intelligence/synthesize",
+      "signature_anchor": "DILITHIUM5",
+      "supported_request_envelope": "PLONK_STARK_HYBRID_ENVELOPE"
+    }
+  ],
+  "spec_cid": "a33ab6c7370d245017197164546867aefe46961c8bbed2cf6ba0c2f946e6d78e",
+  "title": "v2.2 Deterministic Intelligence Service Specification",
+  "total_service_interfaces": 3,
+  "version": "v2.2"
+}

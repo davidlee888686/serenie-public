@@ -1,0 +1,25 @@
+{
+  "ceap_operating_level": "D_4",
+  "cluster_domain": "cluster_alpha.serenie.org",
+  "federated_identity_rules": [
+    "Cross-cluster namespaces must use lowercase FQDN domain identifiers.",
+    "Federated logical IDs must be content-addressable SHA-256 hashes of domain + logical name + step.",
+    "Identity verification across clusters must satisfy CEAP-D4 state equality."
+  ],
+  "federated_triple_sample": {
+    "ceap_level": "D_4",
+    "cluster_domain": "cluster_alpha.serenie.org",
+    "content_id": "4354fbe43d4a90f2aca0c2d88f7f3b2ac957e4da1b5cc07ee31adcdc52283868",
+    "federated_logical_id": "01fbdc492b3aea64bcf954eb9380ffcc6f236943d38189c22a73a5207d7f0042",
+    "invariant_compliance": "INV_FED_001",
+    "logical_name": "auth_service",
+    "step_index": 1,
+    "triple_id": "819a6ff1f2034bbf02196059cbd53cca33fd1ac065d3dccfacc451cc27106b42"
+  },
+  "invariant": "INV_FED_001",
+  "phase": "V2-02",
+  "spec_hash": "597afac0b8a5428639f8f49b22ab073b8565de2f1eb5bc0a0601da02ada74435",
+  "title": "Federated Identity Specification (INV_FED_001)",
+  "v1_x_baseline_status": "UNTOUCHED_AND_FROZEN",
+  "version": "v2.0"
+}

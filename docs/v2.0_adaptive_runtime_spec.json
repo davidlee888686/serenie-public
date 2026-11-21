@@ -1,0 +1,23 @@
+{
+  "adaptive_runtime_rules": [
+    "Contract constraints can be tightened based on workload metrics, but never weakened below CEAP-D4.",
+    "All adaptive parameter adjustments must be deterministic functions of input state metrics.",
+    "State cost optimizations must preserve byte-exact canonical state identity."
+  ],
+  "adaptive_tuning_sample": {
+    "adaptive_threshold_ms": 102,
+    "baseline_ceap_enforced": "CEAP_D4_STRICT",
+    "ceap_level": "D_4",
+    "contract_name": "V2ContractRuntime",
+    "invariant_compliance": "INV_ADAPT_001",
+    "status": "ADAPTIVE_CONTRACT_SEALED",
+    "tuning_id": "88c13f5aa86fb96cdc23e3c25fe46d89e9620d75696d74068172297691bae1ff"
+  },
+  "ceap_operating_level": "D_4",
+  "invariant": "INV_ADAPT_001",
+  "phase": "V2-03",
+  "spec_hash": "d08d753f87d348bfaf28550f5ce49a2488180b77a213bd5485a5c64df5b8fec0",
+  "title": "Adaptive Runtime Specification (INV_ADAPT_001)",
+  "v1_x_baseline_status": "UNTOUCHED_AND_FROZEN",
+  "version": "v2.0"
+}

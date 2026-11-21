@@ -1,0 +1,62 @@
+{
+  "audit_trails": [
+    {
+      "log_format": "CONTENT_ADDRESSABLE_JSON_LOG",
+      "scope": "Adaptive Routing Decisions",
+      "trail_id": "AUDIT_ROUTING_POLICIES"
+    },
+    {
+      "log_format": "CONTENT_ADDRESSABLE_JSON_LOG",
+      "scope": "External Agent Onboarding Events",
+      "trail_id": "AUDIT_ONBOARDING_CERTIFICATES"
+    },
+    {
+      "log_format": "CONTENT_ADDRESSABLE_JSON_LOG",
+      "scope": "Cross-Ecosystem Envelope Propagation",
+      "trail_id": "AUDIT_FEDERATION_ENVELOPES"
+    }
+  ],
+  "ceap_operating_level": "D_4_PLUS",
+  "health_signals": [
+    {
+      "metric": "CEAP-D4+ State Invariant Verification",
+      "signal_id": "SIG_CEAP_COMPLIANCE",
+      "status": "D4_PLUS_HEALTHY"
+    },
+    {
+      "metric": "Unbroken Cryptographic Hash Chain",
+      "signal_id": "SIG_JOURNAL_CONTINUITY",
+      "status": "CHAIN_UNBROKEN"
+    },
+    {
+      "metric": "Cross-Cluster State Replication Hash Equality",
+      "signal_id": "SIG_CLUSTER_SYNC",
+      "status": "IN_SYNC"
+    }
+  ],
+  "phase": "V2-1.07",
+  "spec_cid": "d3769fc869a4280ed7dabf142d1e743e28c6d32b57f1adea1c66e2c8a8d1915c",
+  "telemetry_determinism": "CEAP_D4_PLUS_DETERMINISTIC_TELEMETRY",
+  "title": "v2.1 Monitoring and Telemetry Specification",
+  "version": "v2.1",
+  "zkp_pq_telemetry": [
+    {
+      "metric": "Signature Verification Count",
+      "scheme": "DILITHIUM5",
+      "status": "ACTIVE",
+      "telemetry_id": "TEL_PQ_DILITHIUM5"
+    },
+    {
+      "metric": "Signature Verification Count",
+      "scheme": "FALCON1024",
+      "status": "ACTIVE",
+      "telemetry_id": "TEL_PQ_FALCON1024"
+    },
+    {
+      "metric": "Proof Envelope Verification Time",
+      "status": "ACTIVE",
+      "system": "PLONK_STARK_HYBRID",
+      "telemetry_id": "TEL_ZKP_PLONK_STARK"
+    }
+  ]
+}

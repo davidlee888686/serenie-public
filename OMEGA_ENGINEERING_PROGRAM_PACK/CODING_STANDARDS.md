@@ -1,0 +1,1 @@
+Typed code, logging, docs, tests, deterministic behavior.

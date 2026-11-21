@@ -1,0 +1,50 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "phase": "V2-1.02",
+  "registered_entities": [
+    {
+      "domain": "cluster_alpha.serenie.org",
+      "entity_id": "ent_service_auth_alpha",
+      "entity_type": "SERVICE",
+      "logical_name": "svc_auth_v2_1",
+      "pq_scheme": "DILITHIUM5",
+      "triple": {
+        "content_id": "b6e01dbbb142ede2b92dc608984166280c6bd003295439d4cd651cd5b380f959",
+        "domain": "cluster_alpha.serenie.org",
+        "tenant_id": "tenant_enterprise_alpha"
+      },
+      "zkp_envelope": "zkp_env_svc_auth_alpha"
+    },
+    {
+      "domain": "cluster_beta.serenie.org",
+      "entity_id": "ent_agent_external_beta",
+      "entity_type": "EXTERNAL_AGENT",
+      "logical_name": "agent_ext_oracle_beta",
+      "pq_scheme": "FALCON1024",
+      "triple": {
+        "content_id": "10a4afac8a5f4a882d3ad8dec649eff4775d93a540da302c25b7f723abe8e33c",
+        "domain": "cluster_beta.serenie.org",
+        "tenant_id": "tenant_sovereign_beta"
+      },
+      "zkp_envelope": "zkp_env_agent_ext_beta"
+    },
+    {
+      "domain": "ecosystem_gamma.serenie.net",
+      "entity_id": "ent_agent_omni_gamma",
+      "entity_type": "INTERNAL_ORCHESTRATOR",
+      "logical_name": "agent_omni_orchestrator_gamma",
+      "pq_scheme": "DILITHIUM5",
+      "triple": {
+        "content_id": "5a024be96e5e063f8ca1fd8f69d46ff077765115036c31cb93ff295bad88007a",
+        "domain": "ecosystem_gamma.serenie.net",
+        "tenant_id": "tenant_collective_gamma"
+      },
+      "zkp_envelope": "zkp_env_agent_omni_gamma"
+    }
+  ],
+  "registry_cid": "a605587a6e1de6c514892097abd1b5609d1fed28cc5b0833e173341da94eaadf",
+  "registry_determinism": "100_PERCENT_BYTE_EXACT_REPRODUCIBLE",
+  "title": "v2.1 Agent & Service Identity Registry",
+  "total_registered_entities": 3,
+  "version": "v2.1"
+}

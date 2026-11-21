@@ -1,0 +1,21 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "continuity_vectors": [
+    {
+      "horizon_years": 100,
+      "integrity_verdict": "VERIFIED_100_PERCENT",
+      "replay_checkpoint_hash": "51a9a1cd4320922a77e7baaa5b58528321a50c37515dfa421875088176f7f25a",
+      "vector_id": "CONT_VEC_001"
+    },
+    {
+      "horizon_years": 500,
+      "integrity_verdict": "VERIFIED_100_PERCENT",
+      "replay_checkpoint_hash": "704031299212fe8d1c815ea07765f3081482987f04f9991ec287feb5578894d0",
+      "vector_id": "CONT_VEC_002"
+    }
+  ],
+  "doc_hash": "01a41b0307a3366fb22385e2263951007ad17a6aaec8776282f603730b0642b7",
+  "phase": "PHASE_3_CONTINUITY_VECTORS",
+  "title": "v3.0 Civilization Continuity Vectors",
+  "version": "v3.0"
+}

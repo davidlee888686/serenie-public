@@ -1,0 +1,15 @@
+{
+  "bound_freeze_cid": "1ec8894cfaee5e3680d509ec62fc6b7be021d501c4b29ccbb719a4e2f49740f3",
+  "bound_seal_cid": "11c4dc0ccae65116cfaa1fd404b19efdb15bd129b62a7b304ce15496ca16a6cc",
+  "ceap_operating_level": "D_4_PLUS",
+  "components_summary": {
+    "state": "CLOSED_AND_IMMUTABLE",
+    "total_components": 693
+  },
+  "manifest_cid": "a84d28201116487a433b18ade687b812f96cadb82e177f18e2bc9cd72f161211",
+  "manifest_verdict": "PERMANENT_SUBSTRATE_FROZEN_AND_SEALED",
+  "phase": "Phase 08 - Frozen Manifest",
+  "substrate_status": "SERENIE_V3_0_FROZEN_AND_SEALED",
+  "substrate_version": "v3.0",
+  "title": "Serenie Civilization Substrate Frozen Manifest"
+}

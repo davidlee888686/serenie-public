@@ -1,0 +1,18 @@
+{
+  "ceap_operating_level": "D_4_PLUS",
+  "document_hash": "e53df5e139ee1f8049b064f6722002519a355705489ea60a7aba29ed727b1bdd",
+  "phase": "V2-02",
+  "privacy_guarantee": "ZERO_KNOWLEDGE_PAYLOAD_ISOLATION",
+  "proof_system": "PLONK_STARK_HYBRID_CEAP_D4_PLUS",
+  "sample_envelope": {
+    "ceap_level": "D_4_PLUS",
+    "envelope_id": "zkp_env_3f7e878bc0aa438ad319fd763922d595",
+    "proof_commitment_id": "3f7e878bc0aa438ad319fd763922d595ed32c994b4bef5343e3b7eaa12d64cb2",
+    "proof_system": "PLONK_STARK_HYBRID_CEAP_D4_PLUS",
+    "public_inputs_cid": "775241915aaf0ea682fd627683c14661bec19e8a6f547fbb089d93597d655cfc",
+    "statement": "Claim x is valid under CEAP-D4+ without exposing raw payload",
+    "verification_status": "PROOF_VERIFIED_WITHOUT_PAYLOAD_LEAK"
+  },
+  "title": "Zero-Knowledge Proof Envelopes for CEAP-D4+",
+  "version": "v2.0"
+}

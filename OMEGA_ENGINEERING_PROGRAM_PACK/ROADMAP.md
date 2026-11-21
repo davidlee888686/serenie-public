@@ -1,0 +1,1 @@
+M0 Discovery -> M1 Foundation -> M2 Canonicalization -> M3 Identity -> M4 Contracts -> M5 Transformation -> M6 Delta -> M7 Evidence -> M8 Journal -> M9 Replay -> M10 Projection -> Release.

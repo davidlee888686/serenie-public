@@ -1,0 +1,45 @@
+{
+  "bound_foundations": {
+    "map_cid": "81e1868f7bf5be4a7ee94a482e8de9b45ba4d0d080ac0f8142b88dac62c600ff",
+    "multi_tenant_cid": "09f2e3e42bcc5870766b3ea256c3a8cf111b8e1b556768e8bc388cc092349a87",
+    "onboarding_cid": "9a89d84ba7f59e58247180421e10d1e7d1bd6fa40477d1302ea7eacdafbc9247",
+    "routing_table_cid": "cabb5c9fbfc5cc2fa29fe0d90228181e381d929ca2f4e820b2e1a3598150007c",
+    "zkp_cid": "58a30d9016f9c048d9b5f8b5a9213443c8ba52b74e8a746295616a19098fc7f7"
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "envelope_determinism": "CEAP_D4_PLUS_BYTE_EXACT_ANCHORING",
+  "phase": "V2-1.06",
+  "sample_federation_envelope": {
+    "envelope_body": {
+      "adaptive_routing_decision": {
+        "action": "ALLOW_PRIMARY_DISPATCH",
+        "policy_id": "POL_ROUTE_001_ALPHA_PRIMARY",
+        "target_domain": "cluster_alpha.serenie.org"
+      },
+      "agent_identity_handle": "ent_service_auth_alpha",
+      "onboarding_state_transition": {
+        "certificate_cid": "cert_onboard_ext_alpha_100",
+        "onboarding_flow_id": "ONBOARD_EXT_ALPHA_DILITHIUM"
+      },
+      "pq_signature_anchor": {
+        "coordinate": "pq_coord_dilithium5_alpha",
+        "scheme": "DILITHIUM5",
+        "signature_hash": "sig_dilithium5_hash_100"
+      },
+      "tenant_identity_triple": {
+        "domain": "cluster_alpha.serenie.org",
+        "logical_id": "fed_id_tenant_alpha",
+        "tenant_id": "tenant_enterprise_alpha"
+      },
+      "zkp_verification_result": {
+        "envelope_type": "PLONK_PROOF_ENVELOPE",
+        "proof_commitment_id": "commit_plonk_alpha_100",
+        "verdict": "VERIFIED_PASSED"
+      }
+    },
+    "envelope_cid": "fed_env_8126c53b44bd25240b3025d9ec5cac9e"
+  },
+  "spec_cid": "69086e058ae7a0607226c0dbc189fa3a0eeff08b3772075964a514933b7a704c",
+  "title": "v2.1 Federation Envelope Specification",
+  "version": "v2.1"
+}

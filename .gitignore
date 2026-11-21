@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+/build/
+/dist/
+
+# Virtual environments
+venv/
+.env/
+.env.local/
+
+# Logs
+*.log
+
+# Cache directories
+.pytest_cache/
+.cache/
+.tmp/
+tmp/
+
+# IDE
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Uploads / temp
+.tmp.driveupload/
+uploads/
+archive/
+
+# Generated Windows installer artifacts
+installers/exe/*
+!installers/exe/.gitkeep
+installers/msi/*
+!installers/msi/.gitkeep
+
+# Exclude external repos accidentally placed inside Serenie
+hermes-agent-main/
+old_modules/
+legacy/
+
+# Local-only / historical paths excluded from the public tree
+serenie_v3_0/
+.gemini-serenie/
+.pytest-cache/
+ops/reports/PHASE_00_REPORT.json
+ops/cache/metadata.db
+OWNER_SHIP_CHECKLIST.md

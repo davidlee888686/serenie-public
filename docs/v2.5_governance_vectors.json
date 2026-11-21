@@ -1,0 +1,46 @@
+{
+  "arbitration_vectors": [
+    {
+      "conflict_type": "CROSS_CLUSTER_STATE_DESYNC",
+      "resolution_strategy": "REVERT_TO_LAST_VERIFIED_CHECKPOINT",
+      "vector_hash": "cf524af25e3ea4e74409296eef51f3241a3f4c6eaf9f6da73732ac573b568aea",
+      "vector_id": "VEC_ARB_001"
+    }
+  ],
+  "ceap_operating_level": "D_4_PLUS",
+  "continuity_vectors": [
+    {
+      "metric": "JOURNAL_HASH_CHAIN_UNBROKEN",
+      "threshold": "100_PERCENT_MATCH",
+      "vector_hash": "8662e2090ba42453808028960d26646b335f5c0011debbda39f8b46f07cf9217",
+      "vector_id": "VEC_CON_001"
+    }
+  ],
+  "enforcement_vectors": [
+    {
+      "enforcement_action": "ISOLATE_NON_COMPLIANT_NODES",
+      "target_scope": "CLUSTER_ROUTING_TABLES",
+      "vector_hash": "d64d4e805facda2f951c1bf763b88299f14ccc53a0cb8c1710352f7e8957c4ca",
+      "vector_id": "VEC_ENF_001"
+    }
+  ],
+  "phase": "PHASE_H",
+  "policy_vectors": [
+    {
+      "policy_name": "CEAP_D4_PLUS_INVARIANT_ENFORCEMENT",
+      "priority": 1,
+      "vector_hash": "9ae63655a86ec1d6a45b2cfb8d910d4aa15e6f0699eb5e133467ab1590506cec",
+      "vector_id": "VEC_POL_001"
+    },
+    {
+      "policy_name": "POST_QUANTUM_KEY_ROTATION_POLICY",
+      "priority": 2,
+      "vector_hash": "5dc788179bf15cc8ae15508f2a7bf8d01efdcc761f528130072443814685c4f4",
+      "vector_id": "VEC_POL_002"
+    }
+  ],
+  "title": "v2.5 Governance Vectors",
+  "vectors_cid": "5cf103d2f783aed0ab669393b3b7fadceebbf1ece7852bd5b2fa48cd4ef8d775",
+  "vectors_status": "GOVERNANCE_VECTORS_SEALED",
+  "version": "v2.5"
+}

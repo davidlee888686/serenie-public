@@ -1,0 +1,40 @@
+{
+  "bound_foundations": {
+    "intel_spec_cid": "b311009618bcb8abb16306cced79d3daa54c1f246f7dc7aaf49054d371407b43",
+    "orchestration_spec_cid": "b68bcffdc38cffb409e4bbba3d98edf42598e0586b9c43dfa874d43a4bad2a2d"
+  },
+  "ceap_operating_level": "D_4_PLUS",
+  "conformance_guarantee": "100_PERCENT_BYTE_EXACT_MULTI_RUN_REPRODUCIBILITY",
+  "conformance_scopes": [
+    {
+      "scope_id": "CONF_SCOPE_001_REASONING_ENGINE",
+      "target": "Federated Reasoning Engine Cycles",
+      "verification_level": "CEAP_D4_PLUS_EXACT_MATCH"
+    },
+    {
+      "scope_id": "CONF_SCOPE_002_COGNITIVE_MESH",
+      "target": "Cognitive Mesh Reasoning Propagation",
+      "verification_level": "CEAP_D4_PLUS_EXACT_MATCH"
+    },
+    {
+      "scope_id": "CONF_SCOPE_003_INSIGHT_CONSENSUS",
+      "target": "Insight Formation & Majority Consensus",
+      "verification_level": "CEAP_D4_PLUS_EXACT_MATCH"
+    },
+    {
+      "scope_id": "CONF_SCOPE_004_SERVICE_ENDPOINTS",
+      "target": "Intelligence Service Layer Endpoints",
+      "verification_level": "CEAP_D4_PLUS_EXACT_MATCH"
+    },
+    {
+      "scope_id": "CONF_SCOPE_005_ORCHESTRATION_ROUTING",
+      "target": "Federated Intelligence Orchestration Routing",
+      "verification_level": "CEAP_D4_PLUS_EXACT_MATCH"
+    }
+  ],
+  "phase": "V2-2.07",
+  "spec_cid": "9de27b0380ddb0eebb026dfe3ceaee7751737120698d8c3d306e095ced80bc4c",
+  "title": "v2.2 Deterministic Intelligence Conformance Specification",
+  "total_conformance_scopes": 5,
+  "version": "v2.2"
+}

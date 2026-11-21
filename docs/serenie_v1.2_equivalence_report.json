@@ -1,0 +1,36 @@
+{
+  "ceap_operating_level": "D_4",
+  "equivalence_artifacts": {
+    "golden_vectors_equivalence": "/working_dir/python_vs_rust_equivalence.json",
+    "proof_obligation_results": "/working_dir/python_vs_rust_proof_obligation_results.json",
+    "replay_vectors_comparison": "/working_dir/python_vs_rust_replay_comparison.json"
+  },
+  "equivalence_status": "FULL_CROSS_RUNTIME_EQUIVALENCE",
+  "report_hash": "2d5ed62f0c328c218977e61978b182d6de39c5fd4afbdd20e2b963733e116b1d",
+  "runtimes_verified": [
+    {
+      "role": "REFERENCE",
+      "runtime": "python_reference_v1.2"
+    },
+    {
+      "role": "SECONDARY",
+      "runtime": "rust_secondary_v1.2"
+    }
+  ],
+  "title": "Serenie v1.2 Multi-Runtime Equivalence Report",
+  "v1_0_substrate_status": "UNTOUCHED_AND_FROZEN",
+  "v1_1_artifacts_status": "UNALTERED_AND_PRESERVED",
+  "v1_1_baseline_artifacts": {
+    "golden_vectors": "/working_dir/serenie_v1.1_golden_vectors.json",
+    "proof_obligations": "/working_dir/serenie_v1.1_proof_obligations.json",
+    "replay_vectors": "/working_dir/serenie_v1.1_replay_vectors.json"
+  },
+  "verification_summary": {
+    "equivalence_percentage": 100.0,
+    "golden_vectors_identical": 3,
+    "proof_obligations_proved": 4,
+    "replay_vectors_identical": 1,
+    "total_tests_executed": 8
+  },
+  "version": "v1.2"
+}

@@ -1,0 +1,27 @@
+{
+  "build_timestamp": "2026-08-03T04:35:06-05:00",
+  "bundle_cid": "9d517582368036f14d2a3fa8ee04c57f55da6d055cdc862c9c8e58879f9d80a3",
+  "bundle_id": "SERENIE_AI_BUNDLE_PHASE_OMEGA_SEALED",
+  "ceap_operating_level": "D_4_PLUS",
+  "integrity_verification": {
+    "algorithm": "SHA256_CANONICAL_JSON",
+    "ceap_d4_plus_compliant": true,
+    "constitution_cid": "fc3be178659f12e26655b027aaf8fe667b762aec212ffc34d84fbd9eefb23354",
+    "federation_cid": "61de19b0f4ad4b9d0ca6b8db251b1084dacd151632590b86c2fc22aece8cc8b5",
+    "governance_cid": "3d2b9c09e62b5cb8e3b7b586ef8a8f49637ce24ccdfe66808a466b319d1dfa4d",
+    "personality_cid": "fb951e9bb3dba56355598a45bec8b8efe6bce49384503203d086b6c13e006898",
+    "simulation_cid": "38cf760ee7211c5801c9de3dc0ec99305729956bffe7d485f7198bea0b0c66b4",
+    "taxonomy_cid": "58b6acc7008f3981709dbd3ab58d500b278001d48e0a2d52979424ac4301cc34",
+    "whitepaper_cid": "760ead5233dca6ba94568cdbc55cf9706a73be1e5373274749b04803435cad31"
+  },
+  "registered_layers": {
+    "constitution_layer": "serenie_ecosystem_omega.phase4_constitution",
+    "federation_layer": "serenie_ecosystem_omega.phase3_federation.MultiEcosystemFederationEngine",
+    "governance_layer": "serenie_ecosystem_omega.phase1_governance.EcosystemGovernanceEngine",
+    "personality_layer": "serenie_ecosystem_omega.phase2_personality.AutonomousPersonalityEngine",
+    "simulation_layer": "serenie_ecosystem_omega.phase7_simulation.AutonomousEcosystemSimulationHarness",
+    "taxonomy_layer": "serenie_ecosystem_omega.phase5_taxonomy",
+    "whitepaper_layer": "serenie_ecosystem_omega.phase6_whitepaper"
+  },
+  "version": "v2.5_omega"
+}

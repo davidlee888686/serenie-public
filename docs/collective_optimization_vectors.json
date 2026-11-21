@@ -1,0 +1,28 @@
+{
+  "ceap_level": "D_4",
+  "optimization_vectors": [
+    {
+      "consensus_id": "fcfb8cf09cf5caccee6c2d5d19a965bfcc3dbcfcb1e574ae38e725b50cdd1239",
+      "determinism_guarantee": "CEAP_D4_EXACT",
+      "optimization_id": "32b9bcc949300d7dc50be1692ea1e733ca041f09a948dcdd8165250de275e1d4",
+      "optimized_payload": {
+        "agent_omni_orchestration_v1.3": {
+          "omni_status": "ORCHESTRATING",
+          "step": 1
+        },
+        "agent_python_substrate_v1.3": {
+          "py_status": "READY",
+          "step": 1
+        },
+        "agent_rust_substrate_v1.3": {
+          "rust_status": "READY",
+          "step": 1
+        }
+      },
+      "state_size_reduction_bytes": 0,
+      "status": "OPTIMIZATION_COMPLETED"
+    }
+  ],
+  "total_optimizations": 1,
+  "version": "v1.6"
+}
